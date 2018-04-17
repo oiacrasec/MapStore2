@@ -38,6 +38,14 @@ module.exports = {
     }],
     initialState: {
         defaultState: {
+            maptype: {
+                mapType: "openlayers"
+            },
+            theme: {
+                selectedTheme: {
+                    id: 'geosolutions'
+                }
+            },
             mousePosition: {enabled: false},
             controls: {
                 help: {

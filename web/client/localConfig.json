@@ -47,24 +47,7 @@
             },
             "selectedService": "Demo CSW Service",
             "services": {
-              "Demo CSW Service": {
-                "url": "https://demo.geo-solutions.it/geoserver/csw",
-                "type": "csw",
-                "title": "Demo CSW Service",
-                "autoload": true
-              },
-              "Demo WMS Service": {
-                "url": "https://demo.geo-solutions.it/geoserver/wms",
-                "type": "wms",
-                "title": "Demo WMS Service",
-                "autoload": false
-              },
-              "Demo WMTS Service": {
-                "url": "https://demo.geo-solutions.it/geoserver/gwc/service/wmts",
-                "type": "wmts",
-                "title": "Demo WMTS Service",
-                "autoload": false
-              }
+
             }
           }
         },
@@ -89,6 +72,10 @@
             "es": {
               "code": "es-ES",
               "description": "Español"
+            },
+            "pt": {
+              "code": "pt-BR",
+              "description": "Brasileiro"
             }
           }
         }
