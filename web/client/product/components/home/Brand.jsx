@@ -7,12 +7,12 @@
  */
 const React = require('react');
 
-const brand = require('../../assets/img/geosolutions-brand.png');
+const brand = require('../../assets/img/kefaro-horizontal.png');
 
 class Brand extends React.Component {
     render() {
         return (<div>
-            <a href="http://www.geo-solutions.it">
+            <a href="http://www.kefaro.com.br">
                 <img src={brand} className="mapstore-logo"/>
             </a>
         </div>);

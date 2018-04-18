@@ -198,7 +198,7 @@
                 }
               }
             }
-          }, "AutoMapUpdate", "Share", "DrawerMenu", "Version", "Notifications", "BackgroundSelector", "Annotations",
+          }, "AutoMapUpdate", "HelpLink", "Share", "DrawerMenu", "Version", "Notifications", "BackgroundSelector", "Annotations",
             {
                 "name": "Identify",
                 "cfg": {
@@ -441,8 +441,8 @@
             "cfg": {
                 "className": "navbar shadow navbar-home"
             }
-        }, "ManagerMenu", "Login", "Attribution", "ScrollTop", "Notifications"],
-        "maps": ["Header", "MapSearch", "CreateNewMap",
+        }, "ManagerMenu", "Login", "Language", "Attribution", "ScrollTop", "Notifications"],
+        "maps": ["Header", "Fork", "MapSearch", "HomeDescription", "ThemeSwitcher", "CreateNewMap",
           {
             "name": "Maps",
             "cfg": {
@@ -451,7 +451,7 @@
                 "limit": 12
               }
             }
-          }, "Footer", {
+          }, "Examples", "Footer", {
           "name": "Cookie",
           "cfg": {
             "externalCookieUrl" : "",
