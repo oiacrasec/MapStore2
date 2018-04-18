@@ -40,7 +40,7 @@ class PaginationToolbar extends React.Component {
     };
 
     renderLoading = () => {
-        return <div>Loading...<Spinner spinnerName="circle" noFadeIn overrideSpinnerClassName="spinner"/></div>;
+        return <div>Carregando...<Spinner spinnerName="circle" noFadeIn overrideSpinnerClassName="spinner"/></div>;
     };
 
     render() {

@@ -99,7 +99,7 @@ class MapGrid extends React.Component {
     };
 
     renderLoading = () => {
-        return <div style={{width: "100px", overflow: "visible", margin: "auto"}}>Loading...<Spinner spinnerName="circle" noFadeIn overrideSpinnerClassName="spinner"/></div>;
+        return <div style={{width: "120px", overflow: "visible", margin: "auto"}}>Carregando...<Spinner spinnerName="circle" noFadeIn overrideSpinnerClassName="spinner"/></div>;
     };
 
     renderMetadataModal = () => {

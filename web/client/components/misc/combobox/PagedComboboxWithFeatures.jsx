@@ -127,7 +127,7 @@ class PagedCombobox extends React.Component {
 
     renderField = () => {
         const messages = {
-            emptyList: () => this.props.busy ? "Loading..." : LocaleUtils.getMessageById(this.context.messages, "queryform.attributefilter.autocomplete.emptyList"),
+            emptyList: () => this.props.busy ? "Carregando..." : LocaleUtils.getMessageById(this.context.messages, "queryform.attributefilter.autocomplete.emptyList"),
             open: LocaleUtils.getMessageById(this.context.messages, "queryform.attributefilter.autocomplete.open"),
             emptyFilter: LocaleUtils.getMessageById(this.context.messages, "queryform.attributefilter.autocomplete.emptyFilter")
         };

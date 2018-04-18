@@ -98,7 +98,7 @@ class ConfirmButton extends React.Component {
         // const isActive = this.isActive();
 
         if (isDisabled) {
-            text = disabled && disabled.text || 'Loading...';
+            text = disabled && disabled.text || 'Carregando...';
             className = disabled && disabled.className || 'btn btn-sm btn-secondary';
             style = disabled && disabled.style || {};
         }
