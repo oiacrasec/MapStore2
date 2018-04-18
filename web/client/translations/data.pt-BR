@@ -1,527 +1,498 @@
 {
-    "locale": "en-US",
+    "locale": "pt-BR",
     "messages": {
-        "Language": "Language",
-        "msgId0": "{name} took {numPhotos, plural, =0 {no photos} =1 {one photo} other {# photos}} on {takenDate, date, long}.",
+        "Language": "Linguagem",
+        "msgId0": "{name} pego {numPhotos, plural, =0 {no photos} =1 {one photo} outro {# photos}} em {takenDate, date, long}.",
         "htmlTest": "{name} {surname}",
-        "about_title": "About this app...",
-        "aboutLbl": "About",
-        "about_p0-0": "MapStore 2 is a framework to build web mapping applications using standard mapping libraries, such as",
-        "about_p0-1": "and",
-        "about_p1": "MapStore 2 has several example applications:",
-        "about_ul0_li0": "MapViewer is a simple viewer of preconfigured maps (optionally stored in a database using GeoStore)",
-        "about_ul0_li1": "MapPublisher has been developed to create, save and share in a simple and intuitive way maps and mashups created selecting contents coming from well-known sources like Google Maps and OpenStreetMap or from services provided by organizations using open protocols like OGC WMS, WFS, WMTS or TMS and so on. For more information check the",
-        "about_h20": "License",
-        "about_p3": "MapStore 2 is Free and Open Source software, it is based on OpenLayers 3, Leaflet and ReactJS, and is licensed under the Simplified BSD License.",
-        "about_p5-0": "For more information check",
-        "about_a0": "this",
-        "about_p5-1": "page.",
-        "about_h21": "Credits",
-        "about_p6": "MapStore2 is made by:",
-        "enable": "Enable",
+        "about_title": "Sobre...",
+        "aboutLbl": "Sobre",
+        "about_p0-0": "MapStore 2 é um framework para criar aplicações web de mapeamento usando bibliotecas padrões, como",
+        "about_p0-1": "e",
+        "about_p1": "MapStore 2 possui várias aplicações de exemplo:",
+        "about_ul0_li0": "MapViewer é uma visão simples de mapas pré-configurados (opcionalmente armazenado no banco usando GeoStore)",
+        "about_ul0_li1": "MapPublisher foi desenvolvido para criar, salvar e compartilhar de uma forma simples e intuitiva os mapas e mashups criados selecionando conteúdos vindo de origens conhecidas como GoogleMaps e OpenStreetMap ou de serviços feitos por organizações usando protocolos abertos como OGC WMS, WFS, WMTS ou TMS e outros. Para mais informações cheque o",
+        "about_h20": "Licença",
+        "about_p3": "MapStore 2 é grátis e um software Open Source, foi baseado em OpenLayers 3, Leaflet e ReactJS, e está licenciado sob a Licença BSD.",
+        "about_p5-0": "Para mais informações cheque",
+        "about_a0": "esta",
+        "about_p5-1": "página.",
+        "about_h21": "Creditos",
+        "about_p6": "MapStore2 foi feito por:",
+        "enable": "Habilitar",
         "layers": "Layers",
-        "warning": "Warning",
-        "errorTitleDefault": "Error",
-        "errorDefault": "An error occurred",
+        "warning": "Atenção",
+        "errorTitleDefault": "Erro",
+        "errorDefault": "Um erro ocorreu",
         "version": {
-            "label": "Version"
+            "label": "Versão"
         },
         "autorefresh": {
-            "of": "of",
-            "updating": "Updating...",
+            "of": "de",
+            "updating": "Atualizando...",
             "layers": "layers"
         },
         "localeErrors": {
-            "404": "Translation file not found"
+            "404": "Arquivo de tradução não encontrado"
         },
         "details": {
-            "title": "About this map"
+            "title": "Sobre este mapa"
         },
         "layerProperties": {
-            "windowTitle": "Layer Properties",
-            "title": "Title",
-            "name": "Name",
-            "group": "Group",
-            "general": "General",
-            "description": "Description",
-            "display": "Display",
-            "style": "Style",
-            "transparent": "Transparent",
-            "singleTile": "Single Tile",
-            "cached": "Use cache options",
-            "styleCustom": "Use style named \"{value}\"",
-            "styleListLoadError": "There was an error loading the styles list",
-            "stylesRefreshList": "Refresh Styles List",
-            "format": "Format",
-            "delete": "Delete",
-            "deleteLayer":"Delete Layer",
-            "deleteLayerMessage": "Do you really want to delete this Layer?",
-            "confirmDelete": "Are you sure?",
-            "featureTypeError": "Cannot load layer attributes",
-            "elevation": "Elevation",
-            "titleTranslations": "Title translations",
-            "groupProperties": "Group properties",
-            "featureInfo": "Feature Info",
-            "featureInfoFormatLbl": "Identify response format",
-            "legenderror": "Legend is not available",
-            "editCustomFormat": "Edit custom format",
-            "exampleOfResponse": "Example",
-            "changedSettings": "Changed Settings",
-            "changedSettingsAlert": "You are closing the settings panel without save your changes",
-            "textFormatTitle": "TEXT",
-            "textFormatDescription": "Shows feature info results as plain text",
-            "htmlFormatTitle": "HTML",
-            "htmlFormatDescription": "Shows feature info results as html",
-            "propertiesFormatTitle": "PROPERTIES",
-            "propertiesFormatDescription": "Shows feature info results as properties list",
-            "templateFormatTitle": "TEMPLATE",
-            "templateFormatDescription": "Customize feature info results format",
-            "templateFormatInfoAlert1": "Click on edit button to add a new template.",
-            "templateFormatInfoAlert2": "Use ${ attribute } to wrap the properties you need to display",
-            "templateFormatInfoAlertExample": "The id of the feature is ${ properties }",
-            "templatePreview": "Template preview"
-
+            "windowTitle": "Propriedades do layer",
+            "title": "Título",
+            "name": "Nome",
+            "group": "Grupo",
+            "general": "Geral",
+            "description": "Descrição",
+            "display": "Exibição",
+            "style": "Estilo",
+            "transparent": "Transparente",
+            "singleTile": "Tile único",
+            "cached": "Use opções de cache",
+            "styleCustom": "Use o estilo chamado \"{value}\"",
+            "styleListLoadError": "Houve um erro ao carregar a lista de estilo",
+            "stylesRefreshList": "Recarregar a lista de estilos",
+            "format": "Formatar",
+            "delete": "Deletar",
+            "deleteLayer":"Deletar Layer",
+            "deleteLayerMessage": "Você realmente deseja deletar este layer?",
+            "confirmDelete": "Você tem certeza?",
+            "featureTypeError": "Não foi possível carregar os atributos do layer",
+            "elevation": "Elevação",
+            "titleTranslations": "Traduções de título",
+            "groupProperties": "Propriedades do grupo",
+            "featureInfo": "Informação da feição",
+            "featureInfoFormatLbl": "Identifique o formato de resposta",
+            "legenderror": "Legenda não está disponível"
         },
         "notification": {
-            "update": "Update",
-            "warning": "Warning",
-            "success": "Success",
-            "backgroundLayerNotSupported": "The previously selected background is not supported for this type of map. The first one available is then used.",
-            "noBackgroundLayerSupported": "There are no supported background layers for this type of map.",
-            "updateOldMap": "This is an old map, thus not all the functionalities can be enabled. Click on update button in order to update the map or simply dismiss this notification if you don't want to update it.",
-            "warningSaveUpdatedMap": "Some layers haven't been updated correctly",
-            "saveUpdatedMap": "All the layers have been successfully updated"
+            "update": "Atualizar",
+            "warning": "Atenção",
+            "success": "Sucesso",
+            "backgroundLayerNotSupported": "O fundo anterior selecionado não é suportado por este tipo de mapa. O primeiro disponível será usado.",
+            "noBackgroundLayerSupported": "Não há camadas de fundo suportadas para este tipo de mapa.",
+            "updateOldMap": "Este é um mapa antigo, portanto, nem todas as funcionalidades podem ser ativadas. Clique no botão de atualização para atualizar o mapa ou simplesmente feche esta notificação se você não quiser atualizá-lo.",
+            "warningSaveUpdatedMap": "Alguns layers não foram atualizados corretamente",
+            "saveUpdatedMap": "Todos os layers foram atualizados com sucesso"
         },
         "dock": {
-            "row": "{rowsSelected} row selected",
-            "rows": "{rowsSelected} rows selected"
+            "row": "{rowsSelected} linhas selecionadas",
+            "rows": "{rowsSelected} linhas selecionadas"
         },
         "globeswitcher": {
-            "tooltipDeactivate": "Exit 3D Mode",
-            "tooltipActivate": "Enter 3D Mode"
+            "tooltipDeactivate": "Sair do modo 3D",
+            "tooltipActivate": "Entrar no modo 3D"
         },
         "cookie":{
-            "info": "This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish.",
-            "moreDetailsButton": "More Details",
-            "leave": "Leave",
-            "accept": "Accept"
+            "info": "Este site usa cookies para melhorar sua experiência. Nós assumiremos que você ficará bem com isso, mas você pode cancelar se desejar.",
+            "moreDetailsButton": "Mais detalhes",
+            "leave": "Sair",
+            "accept": "Aceitar"
         },
-        "background": "Background",
-        "language": "Language",
-        "mousePositionCoordinates": "Coordinates indicator",
-        "mouseCoordinates": "Coordinates:",
+        "background": "Fundo",
+        "language": "Linguagem",
+        "mousePositionCoordinates": "Indicador de coordenadas",
+        "mouseCoordinates": "Coordenadas:",
         "mousePositionCRS": "CRS:",
-        "mousePositionElevation": "Elev.:",
-        "mousePositionNoElevation": "N/A",
-        "elevationLoading": "Loading...",
-        "elevationLoadingError": "Error",
-        "elevationNotAvailable": "N/A",
-        "mapScale": "Scale:",
-        "showMousePositionCoordinates": "Show/Hide Coordinates",
+        "mapScale": "Escala:",
+        "showMousePositionCoordinates": "Mostrar/Esconder Coordenadas",
         "menu": "Menu",
-        "options": "Options",
-        "settings": "Settings",
-        "help": "Help",
-        "gohome": "Go home",
-        "back": "Back to the Importer",
-        "printbutton": "Print",
-        "annotationsbutton": "Annotations",
-        "noresultfound": "No Result found",
-        "save": "Save",
-		"saveAs": "Save As...",
-        "opacity": "Opacity",
-        "elevation": "Elevation",
-        "close": "Close",
-        "cancel": "Cancel",
-        "no": "No",
-        "yes": "Yes",
-        "confirm": "Confirm",
-        "confirmTitle": "Do you confirm?",
-        "pageInfo": "{total, plural, =0 {No items} =1 {{total} Item of {total}} other {Items {start}-{end} of {total}}}",
-        "loading": "Loading...",
-        "group": "Group",
-        "groups": "Groups",
-        "permission": "Permission",
-        "permissions": "Permissions",
+        "options": "Opções",
+        "settings": "Configurações",
+        "help": "Ajuda",
+        "gohome": "Ir a homepage",
+        "back": "Voltar para o importador",
+        "printbutton": "Imprimir",
+        "annotationsbutton": "Comentários",
+        "noresultfound": "Nenhum resultado encontrado",
+        "save": "Salvar",
+        "saveAs": "Salvar como...",
+        "opacity": "Opacidade",
+        "elevation": "Elevação",
+        "close": "Fechar",
+        "cancel": "Cancelar",
+        "no": "Não",
+        "yes": "Sim",
+        "confirm": "Confirmar",
+        "confirmTitle": "Você confirma?",
+        "pageInfo": "{total, plural, =0 {Nenhum item} =1 {{total} item de {total}} other {Itens {start}-{end} de {total}}}",
+        "loading": "Carregando...",
+        "group": "Grupo",
+        "groups": "Grupos",
+        "permission": "Permissão",
+        "permissions": "Permissões",
         "global": {
             "colors": {
-                "red": "{number, plural, =0 {Red} =1 {Red} other {Reds}}",
-                "blue": "{number, plural, =0 {Blue} =1 {Blue} other {Blues}}",
-                "green": "{number, plural, =0 {green} =1 {Green} other {Greens}}",
-                "brown": "{number, plural, =0 {Brown} =1 {Brown} other {Browns}}",
-                "purple": "{number, plural, =0 {Purple} =1 {Purple} other {Purples}}",
-                "random": "{number, plural, =0 {Random} =1 {Random} other {Random}}"
+                "red": "{number, plural, =0 {Red} =1 {Red} outro {Reds}}",
+                "blue": "{number, plural, =0 {Blue} =1 {Blue} outro {Blues}}",
+                "green": "{number, plural, =0 {green} =1 {Green} outro {Greens}}",
+                "brown": "{number, plural, =0 {Brown} =1 {Brown} outro {Browns}}",
+                "purple": "{number, plural, =0 {Purple} =1 {Purple} outro {Purples}}",
+                "random": "{number, plural, =0 {Random} =1 {Random} outro {Random}}"
             }
         },
         "home":{
-            "open": "Open",
-            "description": "MapStore 2 has been developed to create, save and share in a simple and intuitive way maps and mashups created selecting contents coming from well-known sources like Google Maps and OpenStreetMap or from services provided by organizations using open protocols like OGC WMS, WFS, WMTS or TMS and so on.<br/>Visit the <a href=\"/mapstore/docs/\">home page</a> for more details.",
-            "Applications": "Applications",
-            "Examples": "Examples",
-            "LinkedinGroup": "Mapstore Linkedin Group",
-            "scrollTop": "Scroll to the top of the page",
+            "open": "Abrir",
+            "description": "MapStore 2 foi desenvolvido para criar, salvar e compartilhar de uma forma simples e intuitiva os mapas e mashups criados selecionando conteúdos vindo de origens conhecidas como GoogleMaps e OpenStreetMap ou de serviços feitos por organizações usando protocolos abertos como OGC WMS, WFS, WMTS or TMS e outros.<br/>Visite a <a href=\"/mapstore/docs/\">home page</a> para mais detalhes.",
+            "Applications": "Aplicações",
+            "Examples": "Exemplos",
+            "LinkedinGroup": "Grupo Linkedin do Mapstore",
+            "scrollTop": "Desloque-se para o topo da página",
             "ml": {
-                "title": "Keep in touch and stay up-to-date with the mailing lists",
-                "subscribe_users": "Subscribe Users Mailing List",
-                "subscribe_devel": "Subscribe Developers Mailing List",
-                "visit_group": "Visit this group",
-                "subscribe": "Subscribe",
+                "title": "Mantenha contato e fique atualizado com as listas de e-mail",
+                "subscribe_users": "Inscreva-se na lista de Email dos Usuários",
+                "subscribe_devel": "Inscreva-se na lista de Email dos Desenvolvedores",
+                "visit_group": "Visite este grupo",
+                "subscribe": "Inscreva-se",
                 "email": "Email:"
             },
             "examples":{
                 "viewer":{
-                    "html":"<h3>Viewer</h3><p>Simple Viewer</p>"
+                    "html":"<h3>Visualizador</h3><p>Visualizador simples</p>"
                 },
                 "3dviewer":{
-                    "html":"<h3>3D Viewer</h3><p>Simple CesiumJS based 3D Viewer</p>"
+                    "html":"<h3>Visualizador 3D</h3><p>Visualizador 3D baseado em CesiumJS simples</p>"
                 },
                 "manager":{
-                    "html":"<h3>Manager</h3><p>Browse MapStore Maps</p>"
+                    "html":"<h3>Gerenciador</h3><p>Navegue nos mapas do MapStore</p>"
                 },
                 "mouseposition":{
-                    "html":"<h3>Mouse Position Control</h3><p>Custom examples</p>"
+                    "html":"<h3>Controle de posição do mouse</h3><p>Exemplos personalizados</p>"
                 },
                 "scalebar":{
-                    "html":"<h3>Scale Control</h3><p>Custom examples</p>"
+                    "html":"<h3>Controle de escala</h3><p>Exemplos personalizados</p>"
                 },
                 "layertree":{
-                    "html":"<h3>Advanced LayerTree</h3><p>Custom examples</p>"
+                    "html":"<h3>Árvore de layer avançado</h3><p>Exemplos personalizados</p>"
                 },
                 "queryform":{
-                    "html":"<h3>Query Builder</h3><p>Custom examples</p>"
+                    "html":"<h3>Construtor de consultas</h3><p>Exemplos personalizados</p>"
                 },
                 "featuregrid":{
-                    "html":"<h3>Feature Editor</h3><p>Custom examples</p>"
+                    "html":"<h3>Editor de feições</h3><p>Exemplos personalizados</p>"
                 },
                 "print":{
-                    "html":"<h3>Printing</h3><p>Custom examples</p>"
+                    "html":"<h3>Impressão</h3><p>Exemplos personalizados</p>"
                 },
                 "plugins":{
-                    "html":"<h3>Plugins</h3><p>Build your own application</p>"
+                    "html":"<h3>Plugins</h3><p>Cronstua sua própria aplicação</p>"
                 },
                 "api":{
-                    "html":"<h3>API</h3><p>Use APIs to include a MapStore2 map in your application</p>"
+                    "html":"<h3>API</h3><p>Use a API para incluir um mapa MapStore2 na sua aplicação</p>"
                 },
                 "rasterstyler":{
-                    "html":"<h3>Raster Styler</h3><p>Style your raster layer</p>"
+                    "html":"<h3>Estilo de imagens</h3><p>Estilo da sua camanda de imagem</p>"
                 }
             }
         },
         "cookiesPolicyNotification": {
-            "title": "This website uses cookies",
-            "message": "By continuing to use our website you are accepting our use of cookies.",
-            "confirm": "I Agree"
+            "title": "Este site usa cookies",
+            "message": "Ao continuar a usar nosso site você estará aceitando o uso de cookies.",
+            "confirm": "Eu concordo"
         },
         "manager": {
-            "openInANewTab":"Open map",
-            "deleteMap":"Delete Map",
-            "deleteMapMessage": "Do you really want to delete this map?",
-            "editMapMetadata":"Edit Map Properties",
-            "mapTypes_combo": "Select Map Viewer: ",
-            "theme_combo": "Select Theme:",
-            "maps_title": "Maps",
-            "locales_combo": "Language:"
+            "openInANewTab":"Abrir mapa",
+            "deleteMap":"Deletar mapa",
+            "deleteMapMessage": "Você realmente quer deletar este mapa?",
+            "editMapMetadata":"Editar propriedade do mapa",
+            "mapTypes_combo": "Selecionar o visualizador de mapas: ",
+            "theme_combo": "Selecionar tema:",
+            "maps_title": "Mapas",
+            "locales_combo": "Linguagem:"
         },
-        "newMap": "New Map",
+        "newMap": "Novo mapa",
 		"maps": {
-            "title": "Maps",
+            "title": "Mapas",
             "feedback": {
-                "noDetailsAvailable": "Details not available",
-                "successSavedMap": "The map has been created correctly",
-                "errorDeletingMap": "Error when deleting this map",
-                "errorDeletingThumbnailOfMap": "Error when deleting thumbnail for this map",
-                "errorDeletingDetailsOfMap": "Error when deleting details for this map",
-                "allResDeleted": "All resources associated with this map have been deleted successfully",
-                "errorFetchingDetailsOfMap": "Error when fetching details for this map",
+                "noDetailsAvailable": "Detalhes não disponível",
+                "successSavedMap": "O mapa foi criado corretamente",
+                "errorDeletingMap": "Erro ao deletar este mapa",
+                "errorDeletingThumbnailOfMap": "Erro ao deletar o miniatura deste mapa",
+                "errorDeletingDetailsOfMap": "Erro ao deletar os detalhes deste mapa",
+                "allResDeleted": "Todos os recursos associados a este mapa foram deletados com sucesso",
+                "errorFetchingDetailsOfMap": "Erro ao obter detalhes deste mapa",
                 "details": {
-                    "deletedSuccesfully": "The details have been removed correctly",
-                    "savedSuccesfully": "The details have been saved correctly",
-                    "updatedSuccesfully": "The details have been updated correctly"
+                    "deletedSuccesfully": "Os detalhes foram removidos com sucesso",
+                    "savedSuccesfully": "Os detalhes foram salvos corretamente",
+                    "updatedSuccesfully": "Os detalhes foram atualizados corretamente"
                 },
                 "thumbnail": {
-                    "deletedSuccesfully": "The thumbnail have been removed correctly",
-                    "savedSuccesfully": "The thumbnail have been saved correctly",
-                    "updatedSuccesfully": "The thumbnail have been updated correctly"
+                    "deletedSuccesfully": "A miniatura foi removida corretamente",
+                    "savedSuccesfully": "A miniatura foi salva corretamente",
+                    "updatedSuccesfully": "A miniatura foi atualizada corretamente"
                 },
-                "errorWhenSaving": "An error occurred during saving process",
-                "errorWhenUpdating": "An error occurred during updating process",
-                "errorWhenDeleting": "An error occurred during deleting process",
-                "errorSizeExceeded": "Please, reduce the size of the details or the quality of the images"
+                "errorWhenSaving": "Um erro ocorreu durante o processo",
+                "errorWhenUpdating": "Um erro ocorreu durante o processo de atualização",
+                "errorWhenDeleting": "Um erro ocorreu durante o processo de deleção",
+                "errorSizeExceeded": "Por favor, reduza a quantidade de detalhes ou a qualidade das imagens"
             },
-			"search": "search for maps..."
+			"search": "procurar por mapas..."
 		},
         "map": {
-            "loading": "Loading...",
-            "loadingerror": "Error during loading",
-            "name": "Name",
-            "description": "Description",
-            "namePlaceholder": "Map Name",
-            "descriptionPlaceholder": "Map Description",
-            "saveTitle": "Save map",
-            "saveText": "Save current map?",
-            "thumbnail": "Thumbnail",
-            "message": "Drop or click to import an image",
-            "suggestion": "(best 300px X 180px, max 500kb)",
-            "errorFormat": "Supported formats: png/jpg",
-            "errorSize": "Max allowed size: 500kb",
-            "error": "The provided image is invalid",
-            "savedMapTitle": "Saved Map",
-            "savedMapMessage": "Map has been saved correctly",
+            "loading": "Carregando...",
+            "loadingerror": "Erro durante o carregamento",
+            "name": "Nome",
+            "description": "Descrição",
+            "namePlaceholder": "Nome do mapa",
+            "descriptionPlaceholder": "Descrição do mapa",
+            "saveTitle": "Salvar mapa",
+            "saveText": "Salvar o mapa corrente?",
+            "thumbnail": "Miniatura",
+            "message": "Arraste ou clique para importar um mapa",
+            "suggestion": "(melhor 300px X 180px, máximo 500kb)",
+            "errorFormat": "Formatos suportados: png/jpg",
+            "errorSize": "Tamanha máximo permitido: 500kb",
+            "error": "A imagem fornecida é inválida",
+            "savedMapTitle": "Mapa salvo",
+            "savedMapMessage": "O mapa foi salvo corretamente",
             "thumbnailError": {
-                "error403": "You are not allowed to update the thumbnail",
-                "error404": "An error occurred while creating the thumbnail",
-                "error409": "A thumbnail with this name already exists",
-                "errorDefault": "Network error"
+                "error403": "Você não possui permissão para atualizar a miniatura",
+                "error404": "Um erro ocorreu durante a criação da miniatura",
+                "error409": "Uma miniatura com este nome já existe",
+                "errorDefault": "Erro de rede"
             },
             "mapError": {
-                "errorTitle": "Cannot save current map",
-                "error403": "You are not allowed to update the map",
-                "error404": "An error occurred while creating the map",
-                "error409": "A map with this name already exists",
-                "error500": "Internal Server Error. Verify if map configuration file size exceeds fixed limit",
-                "errorDefault": "Network error"
+                "errorTitle": "Não foi possível salvar o mapa corrente",
+                "error403": "Você não possui permissão para atualizar este mapa",
+                "error404": "Um erro ocorreu durante a criação deste mapa",
+                "error409": "Um mapa com este nome já existe",
+                "error500": "Internal Server Error. Verifique se o arquivo de configuração do mapa excede o limite fixo",
+                "errorDefault": "Erro de rede"
             },
             "permissions": {
-                "noRules": "No rules",
-                "addRule": "Add a rule...",
-                "selectGroup": "Select a group...",
-                "canView": "can view",
-                "canWrite": "can edit",
-                "noResult": "no results found",
-                "title": "Permissions Groups"
+                "noRules": "Sem regras",
+                "addRule": "Adicionar regra...",
+                "selectGroup": "Selecione um grupo...",
+                "canView": "pode visualizar",
+                "canWrite": "pode editar",
+                "noResult": "nenhum resultado encontrado",
+                "title": "Permissões de grupos"
             },
             "details": {
-                "back": "Back",
-                "save": "Save",
-                "show": "Show details sheet",
-                "add": "Add New Details",
-                "edit": "Edit Details",
-                "rowTitle": "Details Sheet",
-                "title": "Details Sheet - {name}",
-                "undo": "Undo remove",
-                "showPreview": "Show preview",
-                "hidePreview": "Hide preview",
-                "delete": "Delete details sheet",
-                "titleUnsavedChanges": "Are you sure to close without save your changes?",
-                "sureToClose": "Are you sure to close without save your changes?",
-                "fieldsChanged": "Some fields has been changed"
+                "back": "Voltar",
+                "save": "Salvar",
+                "show": "Mostrar folha de detalhes",
+                "add": "Adicionar novos detalhes",
+                "edit": "Editar detalhes",
+                "rowTitle": "Folha de detalhes",
+                "title": "Folha de detalhes - {name}",
+                "undo": "Desfazer remoção",
+                "showPreview": "Mostrar visualização",
+                "hidePreview": "Esconder visualização",
+                "delete": "Deletar folha de detalhes",
+                "titleUnsavedChanges": "Você tem certeza que deseja fechar sem salvar suas alterações?",
+                "sureToClose": "Você tem certeza que deseja fechar sem salvar suas alterações?",
+                "fieldsChanged": "Alguns campos foram alterados"
             }
         },
         "toc": {
-            "toggleLayerVisibility": "Toggle layer visibility",
-            "displayLegendAndTools": "Display legend and tools",
-            "zoomToLayerExtent": "Zoom to layer extent",
-            "addLayer": "Add Layer",
-            "toolZoomToLayerTooltip": "Zoom to selected layer extent",
-            "toolZoomToLayersTooltip": "Zoom to selected layers extent",
-            "toolLayerSettingsTooltip": "Selected layer settings",
-            "toolGroupSettingsTooltip": "Selected group settings",
-            "toolTrashLayerTooltip": "Remove selected layer",
-            "toolTrashLayersTooltip": "Remove selected layers",
-            "toolFeaturesGridTooltip": "Open Attribute Table",
-            "toolDownloadTooltip": "Export layer data",
-            "noFilteredResults": "No results",
-            "filterPlaceholder": "Filter layers",
-            "clearFilter": "Clear filter",
-            "toolReloadLayerTooltip": "Force reload of selected layer",
-            "toolReloadLayersTooltip": "Force reload of selected layers",
-            "statusIconOpen": "Close group",
-            "statusIconClose": "Open group",
-            "grabLayerIcon": "Grab and sort layer",
-            "grabGroupIcon": "Grab and sort group",
-            "toggleLayerVisibilityWarning": "Toggle layer visibility, Warning: layer didn't load correctly",
-            "createWidget": "Create a widget for the selected layer",
-            "editLayerProperties": "Edit layer properties",
-            "browseData": "Open Attribute Table",
-            "removeLayer": "Remove layer",
-            "loadingerror": "The layer has not been loaded correctly or not available",
-            "measure": "Measure",
-            "backgroundSwitcher": "Backgrounds",
-            "layers": "Layers",
-            "drawerButton": "Layers",
-            "refreshTitle": "Update layers",
-            "refreshConfirm": "Update",
-            "refreshMessage": "Reload WMS layers configuration from the server(s)",
-            "refreshError": "Error updating layers: ",
+            "toggleLayerVisibility": "Alterar a visibilidade da camada",
+            "displayLegendAndTools": "Exibir legenda e ferramentas",
+            "zoomToLayerExtent": "Zoom para a camada",
+            "addLayer": "Adicionar camada",
+            "toolZoomToLayerTooltip": "Zoom para a camada selecionada",
+            "toolZoomToLayersTooltip": "Zoom para as camadas selecionadas",
+            "toolLayerSettingsTooltip": "Configurações da camada selecionada",
+            "toolGroupSettingsTooltip": "Configurações do grupo selecionado",
+            "toolTrashLayerTooltip": "Remover camada selecionada",
+            "toolTrashLayersTooltip": "Remover camadas selecionadas",
+            "toolFeaturesGridTooltip": "Abrir tabela de atributo",
+            "toolDownloadTooltip": "Exportar dados da camada",
+            "noFilteredResults": "Sem resultados",
+            "filterPlaceholder": "Filtrar camadas",
+            "clearFilter": "Limpar filtro",
+            "toolReloadLayerTooltip": "Forçar recarregamento da camada selecionada",
+            "toolReloadLayersTooltip": "Forçar recarregamento das camadas selecionadas",
+            "statusIconOpen": "Fechar grupo",
+            "statusIconClose": "Abrir grupo",
+            "grabLayerIcon": "Arraste e ordene a camada",
+            "grabGroupIcon": "Arraste e ordene o grupo",
+            "toggleLayerVisibilityWarning": "Alternar a visibilidade da camada, Aviso: a camada não foi carregada corretamente",
+            "createWidget": "Crie uma ferramenta para a camada selecionada",
+            "editLayerProperties": "Editar as propriedades da camada",
+            "browseData": "Abrir tabela de atributo",
+            "removeLayer": "Remover camada",
+            "loadingerror": "A camada não foi carregada corretamente ou não está disponível",
+            "measure": "Medição",
+            "backgroundSwitcher": "Fundos",
+            "layers": "Camada",
+            "drawerButton": "Camadas",
+            "refreshTitle": "Atualizar camadas",
+            "refreshConfirm": "Atualizar",
+            "refreshMessage": "Recarregar configurações de camadas WMS do(s) servidor(s)",
+            "refreshError": "Erro ao atualizar camadas: ",
             "refreshOptions": {
-                "bbox": "Update BBOX",
-                "search": "Update search options",
-                "title": "Update title",
-                "dimensions": "Update dimensions"
+                "bbox": "Atualizar BBOX",
+                "search": "Atualizar opções de pesquisa",
+                "title": "Atualizar título",
+                "dimensions": "Atualizar dimensões"
             },
             "layerMetadata": {
-                "identifier": "Identifier",
-                "title": "Title",
-                "abstract": "Abstract",
-                "subject": "Subject",
-                "type": "Type",
-                "creator": "Creator",
-                "toolLayerMetadataTooltip": "Show the selected layer's metadata",
-                "layerMetadataPanelTitle": "Layer metadata",
+                "identifier": "Identificador",
+                "title": "Título",
+                "abstract": "Abstrato",
+                "subject": "Sujeito",
+                "type": "Tipo",
+                "creator": "Criador",
+                "toolLayerMetadataTooltip": "Mostrar os metadados dos layers selecionados",
+                "layerMetadataPanelTitle": "Metadados da camada",
                 "notification": {
-                    "warnigGetMetadataRecordById": "Error in metadata search"
+                    "warnigGetMetadataRecordById": "Erro na pesquisa de metadados"
                 }
             }
         },
         "print":{
-            "paneltitle": "Print",
+            "paneltitle": "Impressão",
             "layout": "Layout",
-            "sheetsize": "Sheet size:",
-            "legendoptions": "Legend options",
-            "submit": "Print",
-            "title": "Title",
-            "titleplaceholder": "Enter a title...",
-            "description": "Description",
-            "descriptionplaceholder": "Enter a description...",
-            "resolution": "Resolution:",
-            "defaultBackground": "Use OSM as background",
-            "printtooltip": "Print",
+            "sheetsize": "Tamanho da folha:",
+            "legendoptions": "Opções de legenda",
+            "submit": "Imprimir",
+            "title": "Título",
+            "titleplaceholder": "Insira um título...",
+            "description": "Descrição",
+            "descriptionplaceholder": "Insira uma descrição...",
+            "resolution": "Resolução:",
+            "defaultBackground": "Use camada OSM como fundo",
+            "printtooltip": "Imprimir",
             "alternatives": {
-                "legend": "Include legend",
-                "2pages": "Legend on distinct page",
-                "landscape": "Landscape",
-                "portrait": "Portrait"
+                "legend": "Incluir legenda",
+                "2pages": "Legenda na página distinta",
+                "landscape": "Paisagem",
+                "portrait": "Retrato"
             },
             "legend": {
-                "font": "Labels Config:",
-                "forceLabels": "Force Labels:",
-                "antiAliasing": "Font Anti Aliasing:",
-                "iconsSize": "Icons size:",
+                "font": "Configurações de etiquetas:",
+                "forceLabels": "Forçar etiquetas:",
+                "antiAliasing": "Tipo de Antialiasing:",
+                "iconsSize": "Tamanho dos ícones:",
                 "dpi": "Dpi:"
             },
-            "layoutWarning": "Not allowed layout"
+            "layoutWarning": "Layout não permitido"
         },
         "backgroundSwither":{
-            "tooltip": "Select Background"
+            "tooltip": "Selecionar fundo"
         },
         "info":{
-            "tooltip": "Query objects on map"
+            "tooltip": "Consultar objetos no mapa"
         },
         "expandtoolbar": {
-            "tooltip": "Expand / Collapse"
+            "tooltip": "Expandir / Fechar"
         },
-        "getFeatureInfoTitle": "Feature Info",
-        "identifyTitle": "Feature Info",
-        "identifyNoQueryableLayers": "No active queryable layer",
-        "identifyRevGeocodeHeader": "Coordinates",
-        "identifyRevGeocodeModalTitle": "Address",
-        "identifyRevGeocodeSubmitText": "More Info",
-        "identifyRevGeocodeCloseText": "Close",
-        "identifyRevGeocodeError": "Unable to geocode",
+        "getFeatureInfoTitle": "Informação da feição",
+        "identifyTitle": "Informação da feição",
+        "identifyNoQueryableLayers": "Nenhuma camada ativa a ser consultada",
+        "identifyRevGeocodeHeader": "Coordenadas",
+        "identifyRevGeocodeModalTitle": "Endereço",
+        "identifyRevGeocodeSubmitText": "Mais informações",
+        "identifyRevGeocodeCloseText": "Fechar",
+        "identifyRevGeocodeError": "Não foi possível geocodificar",
         "getFeatureInfoError": {
-            "title": "Ooops! Something's wrong",
-            "text": "An error has occurred during this <b>GetFeatureInfo</b> request"
+            "title": "Ooops! Alguma coisa deu errado",
+            "text": "Um erro ocorreu durante a requisição <b>GetFeatureInfo</b>"
         },
-        "noFeatureInfo": "There is no information available for the point you clicked",
-        "noInfoForLayers": "There are no features for the following layers: ",
+        "noFeatureInfo": "Não há informação disponível para este ponto que você clicou.",
+        "noInfoForLayers": "Não há feições para as seguintes camadas: ",
         "history":{
-            "barLabel": "Map history",
-            "undoBtnTooltip": "Go back",
-            "redoBtnTooltip": "Go forward"
+            "barLabel": "História do mapa",
+            "undoBtnTooltip": "Desfazer",
+            "redoBtnTooltip": "Refazer"
         },
-        "infoFormatLbl": "Identify response format",
-        "measureSupport": {
-            "continueLine": "Click to continue drawing the line",
-            "continuePolygon": "Click to continue drawing the polygon",
-            "startDrawing": "Click to start drawing"
-        },
+        "infoFormatLbl": "Identificar formato de resposta",
         "measureComponent": {
-            "Measure": "Measure",
-            "MeasureLength": "Measure Distance",
-            "MeasureArea": "Measure Area",
-            "MeasureBearing": "Measure Bearing",
-            "tooltip": "Measure length and area",
-            "title": "Measure",
-            "lengthButtonText": "Line",
-            "areaButtonText": "Area",
-            "resetButtonText": "Reset",
-            "lengthLabel": "Length",
-            "areaLabel": "Area",
-            "bearingLabel": "Bearing",
-            "formula": "Formula for distance calculation",
-            "showLabel": "Show measurement label"
+            "Measure": "Medição",
+            "MeasureLength": " Distância",
+            "MeasureArea": " Área",
+            "MeasureBearing": " Rumo (náutica)",
+            "tooltip": "Medição de tamanho e área",
+            "title": "medição",
+            "lengthButtonText": "Linha",
+            "areaButtonText": "Área",
+            "resetButtonText": "Resetar",
+            "lengthLabel": "Comprimento",
+            "areaLabel": "Área",
+            "bearingLabel": "Rumo (náutica)"
         },
         "search":{
-            "placeholder": "Search by location name or coordinates ...",
-            "searchservicesbutton": "Configure search services",
-            "configpaneltitle": "Create/edit a search service",
-            "serviceslistlabel": "Available services",
-            "overriedservice": "Override default services",
-            "addbtn": "Add",
-            "nextbtn": "Next",
-            "prevbtn": "Back",
-            "savebtn": "Save/Update",
-            "cancelbtn": "Cancel",
-            "confirmremove": "Delete?",
-            "cancelconfirm": "Are you sure?",
-            "s_name": "Name",
-            "s_title": "Title",
-            "s_description": "Description",
-            "s_priority": "Priority",
-            "s_url": "Service url",
-            "s_layer": "Layer",
-            "s_attributes": "Attributes",
-            "s_sort": "Sort by",
-            "s_max_features": "Max features",
-            "s_wfs_props_label" : "WFS service props",
-            "s_wfs_opt_props_label" : "Optional props",
-            "s_result_props_label": "Result display properties",
-            "s_priority_info": "Used to sort search results, higher values first. Nominatim results have priority = 5",
-            "serviceslistempty": "No custom services defined"
+            "placeholder": "Pesquisar por nome da localização ou coordenadas ...",
+            "searchservicesbutton": "Configurar serviços de pesquisa",
+            "configpaneltitle": "Criar/Editar serviço de pesquisa",
+            "serviceslistlabel": "Serviços disponíveis",
+            "overriedservice": "Sobrescrever serviços padrão",
+            "addbtn": "Adicionar",
+            "nextbtn": "Próximo",
+            "prevbtn": "Voltar",
+            "savebtn": "Salvar/Atualizar",
+            "cancelbtn": "Cancelar",
+            "confirmremove": "Deletar?",
+            "cancelconfirm": "Você tem certeza?",
+            "s_name": "Nome",
+            "s_title": "Título",
+            "s_description": "Descrição",
+            "s_priority": "Prioridade",
+            "s_url": "Url do serviço",
+            "s_layer": "Camada",
+            "s_attributes": "Atributos",
+            "s_sort": "Ordenar por",
+            "s_max_features": "Máximo de feições",
+            "s_wfs_props_label" : "Propriedades do serviço WFS",
+            "s_wfs_opt_props_label" : "Propriedades opcionais",
+            "s_result_props_label": "Propriedades de exibição de resultados",
+            "s_priority_info": "Usado para ordenar os recursos de pesquisa, valores altos primeiro. Resultados Nominatim possuem prioridade = 5",
+            "serviceslistempty": "Não há serviços customizados definidos"
         },
         "drawLocal": {
             "draw": {
                 "toolbar": {
                     "actions": {
-                        "title": "Cancel drawing",
-                        "text": "Cancel"
+                        "title": "Cancelar desenho",
+                        "text": "Cancelar"
                     },
                     "undo": {
-                        "title": "Delete last point drawn",
-                        "text": "Delete last point"
+                        "title": "Deletar último ponto desenhado",
+                        "text": "Deletar último ponto"
                     },
                     "buttons": {
-                        "polyline": "Draw a polyline",
-                        "polygon": "Draw a polygon",
-                        "rectangle": "Draw a rectangle",
-                        "circle": "Draw a circle",
-                        "marker": "Draw a marker"
+                        "polyline": "Desenhar uma polilinha",
+                        "polygon": "Desenhar um polígono",
+                        "rectangle": "Desenhar um retângulo",
+                        "circle": "Desenhar um círculo",
+                        "marker": "Desenhar um marcador"
                     }
                 },
                 "handlers": {
                     "circle": {
                         "tooltip": {
-                            "start": "Click and drag to draw a circle."
+                            "start": "Clique e arraste para desenhar um círculo."
                         }
                     },
                     "marker": {
                         "tooltip": {
-                            "start": "Click map to place a marker."
+                            "start": "Clique no mapa para colocar um marcador."
                         }
                     },
                     "polygon": {
                         "tooltip": {
-                            "start": "Click to start drawing a shape.",
-                            "cont": "Click to continue drawing a shape.",
-                            "end": "Click first point to close this shape."
+                            "start": "Clique para começar a desenhar o polígono.",
+                            "cont": "Clique para continuar desenhando o polígono.",
+                            "end": "Clique no primeiro ponto para finalizar o polígono."
                         }
                     },
                     "polyline": {
-                        "error": "Error: shape edges must not cross!",
+                        "error": "Erro: as bordas da linha não devem se cruzar!",
                         "tooltip": {
-                            "start": "Click to start drawing a line.",
-                            "cont": "Click to continue drawing the line.",
-                            "end": "Click last point to finish the line."
+                            "start": "Clique para começar a desenhar a linha.",
+                            "cont": "Clique para continuar desenhando a linha.",
+                            "end": "Clique no último ponto para finalizar a linha."
                         }
                     },
                     "rectangle": {
                         "tooltip": {
-                            "start": "Click and drag to draw a rectangle."
+                            "start": "Clique e arreste para desenhar o retângulo."
                         }
                     },
                     "simpleshape": {
                         "tooltip": {
-                            "end": "Release the mouse to finish drawing."
+                            "end": "Solte o mouse para terminar o desenho."
                         }
                     }
                 }
@@ -530,887 +501,847 @@
                 "toolbar": {
                     "actions": {
                         "save": {
-                            "title": "Save changes.",
-                            "text": "Save"
+                            "title": "Salvar alterações.",
+                            "text": "Salvar"
                         },
                         "cancel": {
-                            "title": "Cancel editing, discards all changes.",
-                            "text": "Cancel"
+                            "title": "Cancelar edição, descartar todas alterações.",
+                            "text": "Cancelar"
                         }
                     },
                     "buttons": {
-                        "edit": "Edit layers.",
-                        "editDisabled": "No layers to edit.",
-                        "remove": "Delete layers.",
-                        "removeDisabled": "No layers to delete."
+                        "edit": "Editar camadas.",
+                        "editDisabled": "Não há camadas para editar.",
+                        "remove": "Deletar camadas.",
+                        "removeDisabled": "Não há camadas para deletar."
                     }
                 },
                 "handlers": {
                     "edit": {
                         "tooltip": {
-                            "text": "Drag handles or marker to edit feature.",
-                            "subtext": "Click cancel to undo changes."
+                            "text": "Arraste controladores ou marcador para editar a feição.",
+                            "subtext": "Clique em cancelar para desfazer alterações."
                         }
                     },
                     "remove": {
                         "tooltip": {
-                            "text": "Click on a feature to remove it"
+                            "text": "Clique em uma feição para removê-la"
                         }
                     }
                 }
             }
         },
         "locate": {
-            "tooltip": "Locate me",
-            "metersUnit": "meters",
-            "feetUnit": "feet",
-            "popup": "You are within {distance} {unit} from this point",
-            "outsideMapBoundsMsg": "You seem located outside the boundaries of the map"
+            "tooltip": "Me localize",
+            "metersUnit": "metros",
+            "feetUnit": "pés",
+            "popup": "Você está a {distance} {unit} deste ponto",
+            "outsideMapBoundsMsg": "Você foi localizado fora das fronteiras do mapa"
         },
         "zoombuttons": {
-            "zoomInTooltip": "Increase Zoom",
-            "zoomOutTooltip": "Decrease Zoom",
-            "zoomAllTooltip": "Zoom To Max Extent"
+            "zoomInTooltip": "Aumentar Zoom",
+            "zoomOutTooltip": "Diminuir Zoom",
+            "zoomAllTooltip": "Zoom Geral"
         },
         "fullscreen": {
-            "tooltipActivate": "Switch to Full Screen",
-            "tooltipDeactivate": "Exit full screen",
-            "viewLargerMap": "View Larger Map"
+            "tooltipActivate": "Alterar para modo tela cheia",
+            "tooltipDeactivate": "Sair do modo tela cheia",
+            "viewLargerMap": "Visualizar mapa em tamanho maior"
         },
         "helptexts": {
-            "scaleBox": "This is the helptext for the ScaleBox",
-            "zoomToMaxExtentButton": "This is the helptext for the ZoomToMaxExtentButton",
-            "zoomIn": "This is the helptext for the ZoomIn",
-            "zoomOut": "This is the helptext for the ZoomOut",
-            "searchBar": "Write the address of a place to find. e.g.  '1st avenue, new york'. You can even insert coordinates in this format: 43.87,10.20",
-            "metadataexplorer": "This is the helptext for the MetadataExplorer",
-            "settingsPanel": "This is the helptext for the SettingsPanel",
-            "gohome": "This is the helptext for Home",
-            "measureComponent": "This is the helptext for the MeasureComponent",
-            "backgroundSwitcher": "This is the helptext for the BackgroundSwitcher",
-            "layerSwitcher": "This is the helptext for the LayerSwitcher",
-            "infoButton": "This is the helptext for the InfoButton",
-            "locateBtn": "This is the helptext for the LocateBtn",
-            "snapshot": "This is the helptext for the Snapshot",
-            "print": "This is the helptext for Print",
-            "shapefile": "This is the helptext for the Shapefile",
-            "rasterstyler": "Define min value, max value, number of classes and color ramp to generate a new classification for the selected raster layer",
-            "expandToolbar": "This is the helptext for Expand / Collapse",
-            "historyundo": "Use this button to go to the previous map zoom and location",
-            "historyredo": "Use this button to go to the next map zoom and location",
-            "vectorstyler": "Add rule and generate a new styled vector layer",
-            "styler": "Add rule and generate a new styled layer"
+            "scaleBox": "Este é um texto de ajuda para a caixa de escala",
+            "zoomToMaxExtentButton": "Este é um texto de ajuda para o botão de Zoom Geral",
+            "zoomIn": "Este é um texto de ajuda para o Aumentar Zoom",
+            "zoomOut": "Este é um texto de ajuda para o Diminuir Zoom",
+            "searchBar": "Escreva um endereço de um local para encontrar. Exemplo: '1st avenue, new york'. Você pode também inserir coordenadas como: 43.87,10.20",
+            "metadataexplorer": "Este é um texto de ajuda para o Explorador de Metadados",
+            "settingsPanel": "Este é um texto de ajuda para o Painel de Configuração",
+            "gohome": "Este é um texto de ajuda para a página Home",
+            "measureComponent": "Este é um texto de ajuda para o Componente de Medição",
+            "backgroundSwitcher": "Este é um texto de ajuda para a função de Trocar Fundo",
+            "layerSwitcher": "Este é um texto de ajuda para a Troca de Layer",
+            "infoButton": "Este é um texto de ajuda para o Botão de Informações",
+            "locateBtn": "Este é um texto de ajuda para o Botão de Local",
+            "snapshot": "Este é um texto de ajuda para o Snapshot",
+            "print": "Este é um texto de ajuda para a Impressão",
+            "shapefile": "Este é um texto de ajuda para o arquivo Shape",
+            "rasterstyler": "Defina um valor mínimo, valor máximo, número de classes e cores para gerar uma nova classificação (para as camadas de imagem selecionadas)",
+            "expandToolbar": "Este é um texto de ajuda para o Expandir / Fechar",
+            "historyundo": "Use este botão para ir ao zoom e localização do mapa anterior",
+            "historyredo": "Use este botão para ir ao próximo zoom e localização do mapa",
+            "vectorstyler": "Adicionar regra e gerar uma nova camada de vetor de estilo",
+            "styler": "Adicionar regra e gerar uma nova camada de estilo"
         },
         "queryform": {
-            "title": "Advanced Search",
-            "query": "Search",
-            "reset": "Reset",
-            "query_request_exception": "Request Error",
+            "title": "Pesquisa avançada",
+            "query": "Pesquisa",
+            "reset": "Resetar",
+            "query_request_exception": "Erro na requisição",
             "config": {
-                "load_config_exception": "Error Loading Configuration"
+                "load_config_exception": "Erro ao carregar configuração"
             },
             "comboField": {
-                "default_placeholder": "Select..."
+                "default_placeholder": "Selecione..."
             },
             "form": {
-                "header": "Find in the dataset",
-                "dataset_header": "Dataset"
+                "header": "Encontre no conjunto de dados",
+                "dataset_header": "Conjunto de dados"
             },
-            "emptyfilter": "No filter set. Searching could timeout if pagination is not supported by the server.",
+            "emptyfilter": "Sem conjunto de filtros. A pesquisa pode expirar se a paginação não for suportada pelo servidor.",
             "attributefilter":{
-                "add_condition": " Add Condition",
-                "add_group": " Add Group",
-                "group_label_a": "Match",
-                "group_label_b": "of the following conditions:",
-                "combo_placeholder": "Attribute",
-                "text_placeholder": "Type text to search",
-                "attribute_filter_header": "Attribute Filter",
-                "tooltipTextField": "use <b>*</b> for any number of any char</br>use <b>.</b> for a single char</br>use <b>!</b> to escape the above two (* and .)</br>",
+                "add_condition": " Adicionar condição",
+                "add_group": " Adicionar grupo",
+                "group_label_a": "Igual",
+                "group_label_b": "das seguintes condições:",
+                "combo_placeholder": "Atributo",
+                "text_placeholder": "Insira um texto para pesquisar",
+                "attribute_filter_header": "Filtro de atributos",
+                "tooltipTextField": "use <b>*</b> para qualquer número e qualquer caractere</br>Use <b>.</b> para um único caractere</br>Use <b>!</b> para evitar os dois acima (* e .)</br>",
                 "groupField": {
-                    "any": "any",
-                    "all": "all",
-                    "none": "none"
+                    "any": "qualquer",
+                    "all": "todos",
+                    "none": "nenhum"
                 },
                 "numberfield": {
-                    "isRequired": "Field value required",
-                    "wrong_range": "Lower boundary must be lower than the upper boundary"
+                    "isRequired": "Valor do campo necessário",
+                    "wrong_range": "O limite inferior deve ser inferior ao limite superior"
                 },
                 "datefield": {
-                    "wrong_date_range": "Start date must be earlier than end date"
+                    "wrong_date_range": "A data de início deve ser anterior à data final"
                 },
                 "autocomplete": {
-                    "emptyList": "No results",
-                    "emptyFilter": "The filter returned no results",
-                    "open": "Open combobox"
+                    "emptyList": "Nenhum resultado",
+                    "emptyFilter": "O filtro retornou nenhum resultado",
+                    "open": "Abrir o combobox"
                 }
             },
             "spatialfilter": {
-                "filterType": "Filter Type",
-                "geometric_operation": "Geometric Operation",
-                "combo_placeholder": "Select...",
-                "spatial_filter_header": "Region of interest",
-                "draw_start_label": "Draw the region of interest on the map",
-                "dwithin_label": "meters",
+                "filterType": "Tipo de filtro",
+                "geometric_operation": "Operação geométrica",
+                "combo_placeholder": "Selecione...",
+                "spatial_filter_header": "Região de interesse",
+                "draw_start_label": "Desenhe a região de interesse no mapa",
+                "dwithin_label": "metros",
                 "details": {
-                    "detail_button_label": "Details",
-                    "details_header": "Selection Details",
-                    "details_bbox_label": "Edit the coordinates to modify the area",
-                    "details_circle_label": "Edit the numeric fields to modify the radius and center of the circle",
-                    "reset_bbox": "Reset",
-                    "save_bbox": "Save BBOX modifications",
-                    "save_radius": "Save the radius/center modifications",
-                    "radius": "Radius(m)"
+                    "detail_button_label": "Detalhes",
+                    "details_header": "Detalhes da seleção",
+                    "details_bbox_label": "Edite as coordenadas para modificar a área",
+                    "details_circle_label": "Edite os campos numéricos para modificar o raio e centro do círculo",
+                    "reset_bbox": "Resetar",
+                    "save_bbox": "Salvar as modificações BBOX",
+                    "save_radius": "Salvar as modificações do raio/centro",
+                    "radius": "Raio"
                 },
                 "methods": {
-                    "zone": "Zone",
-                    "viewport": "Viewport",
-                    "regions": "Regions",
-                    "box": "Rectangle",
+                    "zone": "Zona",
+                    "viewport": "Janela de exibição",
+                    "regions": "Regiões",
+                    "box": "Retângulo",
                     "buffer": "Buffer",
-                    "circle": "Circle",
-                    "poly": "Polygon"
+                    "circle": "Círculo",
+                    "poly": "Polígono"
                 },
                 "operations": {
-                    "intersects": "Intersects",
-                    "bbox": "BoundingBox",
-                    "contains": "Is contained",
-                    "dwithin": "Distance from",
-                    "within": "Contains"
+                    "intersects": "Intersecções",
+                    "bbox": "Caixa de delimitação",
+                    "contains": "Está contido",
+                    "dwithin": "Distância de",
+                    "within": "Contém"
                 }
             },
             "crossLayerFilter": {
-                "title": "Layer filter",
-                "targetLayer": "Target layer",
-                "clear": "Clear filter",
-                "operation": "Operation",
+                "title": "Filtro da camada",
+                "targetLayer": "Camada alvo",
+                "clear": "Limpar filtro",
+                "operation": "Operação",
                 "errors": {
-                    "noCrossLayerAvailable": "Cross Layer Filtering is not available for the selected layer"
+                    "noCrossLayerAvailable": "A filtragem de camada cruzada não está disponível para a camada selecionada"
                 }
             }
         },
         "user":{
             "login": "Login",
             "logout": "Logout",
-            "info": " Account Info",
-            "details": " User Details",
-            "noAttributesMessage": "There is no information related to your account",
-            "changePwd": "Change Password",
-            "newPwd": "New Password",
-            "retypePwd": "Retype Password",
-            "passwordMinlenght": "Your password must be at least {minSize} character",
-            "passwordCheckFail": "Passwords do not match!",
-            "passwordInvalid": "Invalid password",
-            "username": "Username",
-            "password": "Password",
-            "passwordChanged": "Password changed",
-            "passwordError": "Error changing password",
-            "signIn":"Sign-in",
-            "loginFail":"Login Fail",
+            "info": " Informação da conta",
+            "details": " Detalhes do usuário",
+            "noAttributesMessage": "Não há informações relacionadas à sua conta",
+            "changePwd": "Trocar senha",
+            "newPwd": "Nova senha",
+            "retypePwd": "Redigite a senha",
+            "passwordMinlenght": "Sua senha necessita conter pelo menos {minSize} caracteres",
+            "passwordCheckFail": "As senhas digitadas são diferentes!",
+            "passwordInvalid": "Senha inválida",
+            "username": "Usuário",
+            "password": "Senha",
+            "passwordChanged": "Senha alterada",
+            "passwordError": "Erro ao alterar senha",
+            "signIn":"Acessar",
+            "loginFail":"Falha no login",
             "loginFailedStatusMessages": {
-                "usernamePwdInsert": "Please insert username and password",
-                "usernamePwdIncorrect":"Username or password incorrect"
+                "usernamePwdInsert": "Por favor, insira o usuário e senha",
+                "usernamePwdIncorrect":"Usuário ou senha incorreto"
             },
-            "detailsName": "Name",
-            "detailsRole": "Role",
-            "detailsGroups": "Groups",
+            "detailsName": "Nome",
+            "detailsRole": "Regra",
+            "detailsGroups": "Grupos",
             "detailsEmail": "E-mail",
-            "detailsCompany": "Company",
-            "detailsNotes": "Notes"
+            "detailsCompany": "Empresa",
+            "detailsNotes": "Observações"
         },
         "annotations": {
-            "edit": "Edit",
-            "remove": "Delete",
-            "save": "Save",
-            "cancel": "Cancel",
-            "back": "Back",
-            "addMarker": "Add a new point on the map",
-            "styleGeometry": "Choose a different style for points",
-            "deleteGeometry": "Remove existing points",
-            "removeannotation": "Do you want to remove the annotation?",
-            "removegeometry": "Do you want to remove all annotation points?",
-            "confirm": "Confirm",
-            "mandatory": "Mandatory field",
-            "emptygeometry": "Geometry cannot be empty",
-            "add": "New",
-            "filter": "Filter annotations...",
-            "undo": "Are you sure you want to abandon the annotation editing session?",
-            "title": "Annotations",
+            "edit": "Editar",
+            "remove": "Deletar",
+            "save": "Salvar",
+            "cancel": "Cancelar",
+            "back": "Voltar",
+            "addMarker": "Adicionar um novo ponto no mapa",
+            "styleGeometry": "Escolha um estilo diferente para os pontos",
+            "deleteGeometry": "Remova os pontos existentes",
+            "removeannotation": "Você gostaria de remover a observação?",
+            "removegeometry": "Deseja remover todos os pontos de observações?",
+            "confirm": "Confirmar",
+            "mandatory": "Campo obrigatório",
+            "emptygeometry": "A geometria não pode estar vazia",
+            "add": "Novo",
+            "filter": "Observações do filtro",
+            "undo": "Tem certeza de que deseja abandonar a sessão de edição de observações?",
+            "title": "Observações",
             "zoomTo": "Zoom",
             "field": {
-                "title": "Title",
-                "description": "Description"
+                "title": "Título",
+                "description": "Descrição"
             }
         },
         "users": {
-            "title": "Manage Accounts",
-            "users": "Users",
-            "manageUsers": "Manage Users",
-            "searchUsers": "search for users...",
-            "newUser": "New User",
-            "editUser": "Edit user",
-            "deleteUser": "Delete User",
+            "title": "Gerenciar contas",
+            "users": "usuários",
+            "manageUsers": "Gerenciar usuários",
+            "searchUsers": "pesquisar por usuários...",
+            "newUser": "Novo usuário",
+            "editUser": "Editar usuário",
+            "deleteUser": "Deletar usuário",
             "statusTitle": "status",
-            "enabled": "Enabled",
-            "groupTitle": "Groups:",
-            "roleTitle": "Role",
-            "saveUser": "Save",
-            "savingUser": "Saving...",
-            "userSaved": "Saved!",
-            "createUser": "Create",
-            "creatingUser": "Creating...",
-            "userCreated": "Created!",
-            "deleting": "Deleting...",
-            "delete": "Delete",
-            "confirmDeleteUser": "Are you sure you want to delete this user?",
-            "errorDelete": "There was an error deleting this user:",
-            "errorSaving": "There was an error saving the user:",
-            "selectedGroups": "SELECTED GROUPS"
+            "enabled": "Ativado",
+            "groupTitle": "Grupos:",
+            "roleTitle": "Regra",
+            "saveUser": "Salvar",
+            "savingUser": "Salvando...",
+            "userSaved": "Salvo!",
+            "createUser": "Criar",
+            "creatingUser": "Criando...",
+            "userCreated": "Criado!",
+            "deleting": "Deletando...",
+            "delete": "Deletar",
+            "confirmDeleteUser": "Você tem certeza que deseja deletar este usuário?",
+            "errorDelete": "Ocorreu um erro ao deletar este usuário:",
+            "errorSaving": "Ocorreu um erro ao salvar o usuário:",
+            "selectedGroups": "GRUPOS SELECIONADOS"
         },
         "usergroups": {
-          "searchGroups": "Search Groups...",
-          "groups": "Groups",
-          "nameLimit": "The name is limited to 255 characters.",
-          "descLimit": "The description is limited to 255 characters.",
-          "editGroup": "Edit Group",
-          "deleteGroup": "Delete Group",
-          "removeUser": "Remove User",
-          "newGroup": "New Group",
-          "manageGroups": "Manage Groups",
-          "description": "Description:",
-          "noDescriptionAvailable": "(No description)",
-          "groupName": "Group Name",
-          "groupDescription": "Description",
-          "saveGroup": "Save",
-          "createGroup": "Create",
-          "creatingGroup": "Creating...",
-          "groupMembers": "Members:",
-          "addMember": "Add Member:",
-          "noUsers": "No users for this group",
-          "errorSaving": "There was an error saving this group",
-          "errorDelete": "There was an error deleting this group",
-          "confirmDeleteGroup": "Are you sure you want to delete this group?"
+          "searchGroups": "Pesquisar grupos...",
+          "groups": "Grupos",
+          "nameLimit": "O nome está limitado a 255 caracteres.",
+          "descLimit": "A descrição está limitada a 255 caracteres.",
+          "editGroup": "Editar grupo",
+          "deleteGroup": "Deletar grupo",
+          "removeUser": "Remover usuário",
+          "newGroup": "Novo grupo",
+          "manageGroups": "Gerenciar grupos",
+          "description": "Descrição:",
+          "noDescriptionAvailable": "(Sem descrição)",
+          "groupName": "Nome do grupo",
+          "groupDescription": "Descrição",
+          "saveGroup": "Salvar",
+          "createGroup": "Criar",
+          "creatingGroup": "Criando...",
+          "groupMembers": "Membros:",
+          "addMember": "Adicionar membro:",
+          "noUsers": "Não há usuários neste grupo",
+          "errorSaving": "Ocorreu um erro ao salvar este grupo",
+          "errorDelete": "Ocorreu um erro ao deletar este grupo",
+          "confirmDeleteGroup": "Você tem certeza que deseja deletar este grupo?"
         },
         "share":{
-            "title": "Share",
-            "titlePanel": "Share the map",
-            "socialIntro": "In your favourite social network",
-            "directLinkTitle": "Via a direct link",
+            "title": "Compartilhar",
+            "titlePanel": "Compartilhar o mapa",
+            "socialIntro": "Em sua rede social favorita",
+            "directLinkTitle": "Via link direto",
             "social": "Social",
             "direct": "Link",
-            "code": "Embed",
-            "embeddedLinkTitle": "Via the embedded code",
-            "forceDrawer": "Show TOC",
-            "apiLinkTitle": "Using APIs",
+            "code": "Embutido",
+            "embeddedLinkTitle": "Via codificação embutida",
+            "forceDrawer": "Mostrar TOC",
+            "apiLinkTitle": "Usando APIs",
             "QRCodeLinkTitle": "qr code",
-            "msgCopiedUrl": "Copied",
-            "msgToCopyUrl": "Click to copy",
-            "sharedTitle": "Check out my new map: "
+            "msgCopiedUrl": "Copiado",
+            "msgToCopyUrl": "Clique para copiar",
+            "sharedTitle": "Confira meu novo mapa: "
         },
         "snapshot": {
-            "title": "Snapshot Preview",
-            "save": "Save",
-            "tooltip": "Save a snapshot of the map.",
-            "googleBingError": "Google and Bing layers aren't available for the snapshot, due to copyright restrictions.",
-            "downloadingSnapshots": "pending snapshot generation",
-            "date": "Date",
-            "layers": "Layers",
-            "size": "Size",
-            "notsupported": "Snapshot not supported",
-            "taintedMessage": "Save snapshot functionality is limited due to some browser security rules. For better results right-click on the preview and select 'Save image as' (supported by Firefox and Chrome)."
+            "title": "Pré-visualização do Snapshot",
+            "save": "Salvar",
+            "tooltip": "Salvar um snapshot do mapa.",
+            "googleBingError": "Camadas do Google e Bing não estão disponíveis para o snapshot, devido a restrições de direitos autorais.",
+            "downloadingSnapshots": "geração de snapshot pendente",
+            "date": "Data",
+            "layers": "Camadas",
+            "size": "Tamanho",
+            "notsupported": "Snapshot não suportado",
+            "taintedMessage": "Funcionalidade de salvar um snapshot está limitado devido algumas regras de segurança do browser. Para melhor resultados clique com botão direito na pré-visualização e selecione 'Salvar imagem como' (suportado pelo Firefox e Chrome)."
         },
         "shapefile": {
-            "title": "Add Local Vector Files",
-            "tooltip": "Add a local Vector Files to the map.",
-            "placeholder": "Drop your files here or click to select the Vector Files to import. (supported files: shapefiles must be contained in zip archives, KML/KMZ e GPX)",
-            "defaultStyle": "Default style",
-            "zoom": "Zoom on the vector files",
+            "title": "Adicionar arquivos de vetor local",
+            "tooltip": "Adiciona arquivos de vetor local ao mapa.",
+            "placeholder": "Solte seus arquivos aqui ou clique para selecionar os arquivos de vetor para importar. (arquivos suportados: arquivos shape precisam estar contidos em arquivos ZIP, KML/KMZ e GPX)",
+            "defaultStyle": "Estilo padrão",
+            "zoom": "Zoom nos arquivos de vetor",
             "error": {
-                "select": "Select one or more files. (supported files: shapefiles must be contained in zip archives, KML/KMZ e GPX)",
-                "shapeFileParsingError": "Cannot load the vector file. The file could be damaged or not well formed",
-                "genericLoadError": "Cannot load the vector file on map",
-                "missingPrj": "Missing projection info (.prj), coordinate system is  supposed to be EPSG:4326"
+                "select": "Selecione um ou mais arquivos. (arquivos suportados: arquivos shape precisam estar contidos em arquivos ZIP, KML/KMZ e GPX)",
+                "shapeFileParsingError": "Não foi possível carregar os arquivos de vetor. O arquivo pode estar danificado ou mal formado",
+                "genericLoadError": "Não foi possível carregar o arquivo de vetor no mapa"
             },
-            "add": "Add",
-            "cancel": "Cancel",
-            "success": " correctly imported"
+            "add": "Adicionar",
+            "cancel": "Cancelar",
+            "success": " importados corretamente"
         },
         "catalog": {
-            "title": "Catalog",
-            "autoload": "Search on service selection",
-            "clearValueText": "Clear selection",
-            "noResultsText": "No Result",
-            "tooltip": "Browse Catalog",
-            "addToMap": "Add To Map",
-            "getWMSLink": "Get WMS Link",
-            "error": "There was an error loading records from the catalog",
-            "pageInfo": "Results {start}-{end} of {total}",
-            "resultInfo": "{total, plural, =0 {No items} =1 {{total} Item of {total}} other {{start}-{end} of {total}}}",
-            "pageInfoInfinite": "{total, plural, =undefined {} =0 {No results} =1 {{total} of {total} matched} other {Loaded {loaded} of {total} matched}}",
-            "noRecordsMatched": "No record matched",
+            "title": "Catalogo",
+            "autoload": "Pesquisar na seleção do serviço",
+            "clearValueText": "Limpar seleção",
+            "noResultsText": "",
+            "tooltip": "Navegar no catálogo",
+            "addToMap": "Adicionar ao mapa",
+            "getWMSLink": "Obter o link WMS",
+            "error": "Ocorreu um erro ao carregar os registros do catálogo",
+            "pageInfo": "Resultados {start}-{end} de {total}",
+            "noRecordsMatched": "Nenhum registro",
             "wmsGetCapLink": "WMS",
             "wfsGetCapLink": "WFS",
-            "share": "Share",
-            "copyToClipboard": "Copy to clipboard",
-            "copied": "Copied!",
-            "textSearchPlaceholder": "text to search...",
-            "search": "Search",
-            "delete": "Delete",
-            "reset": "Clear",
-            "options": "Options",
-            "srs_not_allowed": "The map coordinate system is not supported by this service",
-            "add": "Add",
-            "service": "Service",
-            "servicePlaceholder": "type a service",
+            "share": "Compartilhar",
+            "copyToClipboard": "Copiar para área de transferência",
+            "copied": "Copiado!",
+            "textSearchPlaceholder": "digite para pesquisar...",
+            "search": "Pesquisar",
+            "delete": "Deletar",
+            "reset": "limpar",
+            "options": "Opções",
+            "srs_not_allowed": "O sistema de coordenadas do mapa não é suportado por este serviço",
+            "add": "Adicionar",
+            "service": "Serviço",
+            "servicePlaceholder": "digite um serviço",
             "url": "Url",
-            "urlPlaceholder": "type a URL",
-            "type": "Type",
-            "serviceTitle": "Title",
-            "serviceTitlePlaceholder": "type a title",
+            "urlPlaceholder": "digite uma URL",
+            "type": "Tipo",
+            "serviceTitle": "Título",
+            "serviceTitlePlaceholder": "digite um título",
             "notification": {
-                "warningAddCatalogService": "Insert a valid url and title",
-                "addCatalogService": "Service added correctly",
-                "duplicatedServiceTitle": "A service with that title already exists. Please, change title",
-                "serviceDeletedCorrectly": "The service was deleted correctly",
-                "errorServiceUrl": "Service not available. Please, check the provided url"
+                "warningAddCatalogService": "Insira uma URL e um título válidos",
+                "addCatalogService": "Serviço adicionado corretamente",
+                "duplicatedServiceTitle": "Um serviço com esse título já existe. Por favor, mude o título",
+                "serviceDeletedCorrectly": "O serviço foi deletado corretamente",
+                "errorServiceUrl": "Serviço não disponível. Por favor, verifique a URL fornecida"
             }
         },
         "uploader": {
-            "filename": "File Name",
-            "type": "Type",
-            "lastModified": "Last Modified",
-            "filesize": "Size",
-            "beforeUpload": "Doing pre-upload operations... ",
-            "uploadingFiles": "Uploading Files...",
-            "dropfile": "drop files here to upload",
-            "dropfileImport": "drop files here to add them to this process"
+            "filename": "Nome do arquivo",
+            "type": "Tipo",
+            "lastModified": "Última vez modificado",
+            "filesize": "Tamanho",
+            "beforeUpload": "Fazendo operações de pré-carregamento...",
+            "uploadingFiles": "Fazendo upload de arquivos...",
+            "dropfile": "Solte arquivos aqui para enviar",
+            "dropfileImport": "Solte arquivos aqui para adicioná-los a esse processo"
         },
         "importer": {
-            "title": "Import Data",
-            "imports": "Import Sessions",
-            "importN": "Session {id}",
-            "creatingImportProcess": " Creating Import Session... ",
-            "dropfile": "drop files here to create a new importing session",
-            "dropfileImport": "drop files here to add them to this session",
-            "process": "Session",
+            "title": "Importar dados",
+            "imports": "Importar sessões",
+            "importN": "Sessão {id}",
+            "creatingImportProcess": " Criando sessão de importação... ",
+            "dropfile": "solte arquivos aqui para criar uma nova sessão de importação",
+            "dropfileImport": "solte arquivos aqui para adicioná-los a esta sessão",
+            "process": "Sessão",
             "number": "#",
             "workspace": {
-                "create": "Create",
-                "createWS": "create a new workspace: ",
-                "target": "target workspace: ",
-                "failure": "Error creating workspace: {statusWS}",
-                "success": "Workspace {statusWS} successfully created",
-                "select": "Select Target Workspace",
-                "new": "New workspace name..."
+                "create": "Criar",
+                "createWS": "criar um novo espaço de trabalho: ",
+                "target": "espaço de trabalho alvo: ",
+                "failure": "Erro ao criar um espaço de trabalho: {statusWS}",
+                "success": "Espaço de trabalho {statusWS} criado com sucesso",
+                "select": "Selecione o espaço de trabalho alvo",
+                "new": "Nome do novo espaço de trabalho..."
             },
             "import": {
-                "actions": "Actions",
-                "tasks": "Packages",
-                "runImport": "Run",
-                "deleteImport": "Delete Session",
-                "deleteTask": "Delete",
+                "actions": "Ações",
+                "tasks": "Pacotes",
+                "runImport": "Executar",
+                "deleteImport": "Deletar sessão",
+                "deleteTask": "Deletar",
                 "status": "Status",
-                "archive": "Archive",
-                "deleting": "Deleting...",
-                "analyzing": "Analyzing package...",
-                "applyingPreset": "Applying Presets..."
+                "archive": "Arquivo",
+                "deleting": "Deletando...",
+                "analyzing": "Analizando pacote...",
+                "applyingPreset": "Aplicando predefinições..."
             },
             "task": {
-                "panelTitle": "Import Package {id}",
-                "general": "General Info",
+                "panelTitle": "Importar pacote {id}",
+                "general": "Informações gerais",
                 "status": "Status",
-                "updateMode": "Update Mode",
-                "originalData": "Original File",
-                "file": "File Name",
-                "format": "Format",
-                "targetStore": "Target Store",
-                "storeType": "Store Type",
-                "storeName": "Store Name",
-                "layer": "Layer",
-                "transforms": "Transformations Chain",
-                "update": "Update",
-                "run": "Import This Package",
-                "edit": "Edit Default Style",
-                "delete": "Delete This Package"
+                "updateMode": "Modo de atualização",
+                "originalData": "Arquivo original",
+                "file": "Nome do arquivo",
+                "format": "Formato",
+                "targetStore": "Alvo de armazenamento",
+                "storeType": "Tipo de armazenamento",
+                "storeName": "Nome do armazenamento",
+                "layer": "Camada",
+                "transforms": "Cadeia de transformações",
+                "update": "Atualização",
+                "run": "Importar este pacote",
+                "edit": "Editar estilo padrão",
+                "delete": "Deletar este pacote"
             },
             "transform": {
-                "panelTitle": "Transformation {id}",
-                "type": "Transformation Type",
-                "actions": "Actions",
-                "options": "Transformation Options",
-                "overviewlevels": "Overview Levels",
-                "delete": "Delete this transformation"
+                "panelTitle": "Transformação {id}",
+                "type": "Tipo de transformação",
+                "actions": "Ações",
+                "options": "Opções de transformação",
+                "overviewlevels": "Níveis de visão geral",
+                "delete": "Deletar esta transformação"
             }
         },
         "rasterstyler": {
-            "tooltip": "Create and edit raster layer style",
-            "paneltitle": "Raster Styler",
-            "layerlabel": "Layer",
-            "typelabel": "Style Type",
-            "opacitylabel": "Opacity",
-            "redtitle": "Red",
-            "greentitle": "Green",
-            "bluetitle": "Blue",
-            "graytitle": "Gray",
-            "pseudobandtitle": "Band Selection",
-            "eqinttitle": "Equal Interval Classification",
-            "pseudotitle": "PseudoColor Settings",
-            "applybtn": "Apply Style"
+            "tooltip": "Criar e editar os estilos para camadas de imagem",
+            "paneltitle": "Estilos de imagens",
+            "layerlabel": "Camada",
+            "typelabel": "Tipo de estilo",
+            "opacitylabel": "Opacidade",
+            "redtitle": "Vermelho",
+            "greentitle": "Verde",
+            "bluetitle": "Azul",
+            "graytitle": "Cinza",
+            "pseudobandtitle": "Seleção de banda",
+            "eqinttitle": "Classificação de intervalo de semelhança",
+            "pseudotitle": "Configurações de pseudocores",
+            "applybtn": "Aplicar estilo"
         },
         "bandselector": {
-            "band": "Band",
-            "enhancement": "Enhancement",
-            "algorithmTitle": "Optional Algorithm",
-            "value": "Value",
-            "min": "Min",
-            "max": "Max",
+            "band": "Banda",
+            "enhancement": "Aperfeiçoamento",
+            "algorithmTitle": "Algorítimo opcional",
+            "value": "Valor",
+            "min": "Mínimo",
+            "max": "Máximo",
             "enha": {
-                "none": "None",
-                "Normalize": "Normalize",
-                "Histogram": "Histogram",
-                "GammaValue": "Gamma Correction"
+                "none": "Nenhum",
+                "Normalize": "Normalizar",
+                "Histogram": "Histograma",
+                "GammaValue": "Correção de gamma"
             },
             "algorithm": {
-                "none": "None",
-                "StretchToMinimumMaximum": "Stretch",
-                "ClipToMinimumMaximum": "Clip",
-                "ClipToZero": "Clip To Zero"
+                "none": "Nenhum",
+                "StretchToMinimumMaximum": "Área",
+                "ClipToMinimumMaximum": "Aparar",
+                "ClipToZero": "Aparar a zero"
             }
         },
         "equalinterval": {
-            "min": "Min",
-            "max": "Max",
+            "min": "Mínimo",
+            "max": "Máximo",
             "classes": "Classes",
-            "ramp": "Color Ramp",
-            "classify": "Classify",
-            "maxerror": "Max value must be greater than min value",
-            "minerror": "Min value must be less than max value"
+            "ramp": "Rampa de cores",
+            "classify": "Classificar",
+            "maxerror": "O valor máximo deve ser maior que o valor mínimo",
+            "minerror": "O valor mínimo deve ser inferior ao valor máximo"
         },
         "colormapgrid": {
-            "color": "Color",
-            "quantity": "Quantity",
-            "label": "Label",
-            "minmaxerror": "The value must be between the values ​​of the previous and next cell"
+            "color": "Cor",
+            "quantity": "Quantidade",
+            "label": "Rótulo",
+            "minmaxerror": "O valor deve estar entre os valores da célula anterior e seguinte"
         },
         "pseudocolorsettings": {
-            "type": "Type",
-            "extended": "Extended",
-            "colormap": "Color Map",
-            "add": "Add Entry",
-            "remove": "Remove Entry"
+            "type": "Tipo",
+            "extended": "Extendido",
+            "colormap": "Cor do mapa",
+            "add": "Adicionar entrada",
+            "remove": "Remover entrada"
         },
         "rasterstyletype": {
-            "rgb": "Red Green Blue",
-            "gray": "GrayScale",
-            "pseudo": "PseudoColor",
-            "multi": "Multi Band",
-            "single": "Single Band"
+            "rgb": "Vermelho Verde Azul",
+            "gray": "Escala de cinza",
+            "pseudo": "Pseudocor",
+            "multi": "Banda múltipla",
+            "single": "Banda única"
         },
         "featuregrid": {
-            "columns": "Columns",
-            "header": "Search results list",
-            "tools": "Tool Panel",
-            "export": "Export",
-            "selectall": "Select All",
-            "deselectall": "Clear Selection",
-            "backtosearch": "Back to search",
+            "columns": "Colunas",
+            "header": "Pesquisar lista de resultados",
+            "tools": "Painel de ferramentas",
+            "export": "Exportar",
+            "selectall": "Selecione todos",
+            "deselectall": "Limpar seleção",
+            "backtosearch": "Voltar à pesquisa",
             "resultInfo": "{total, plural, =0 {No items} =1 {{total} Item of {total}} other {{start}-{end} of {total}}}",
             "resultInfoVirtual": "{total, plural, =0 {No items} =1 {{total} Item of {total}} other {{total} Items}}",
             "pageInfo": "{totalPages, plural, =0 {No pages} =1 {Page {totalPages} of {totalPages}} other {Page {page} of {totalPages}}}",
             "pagination": {
-                "page": "Page",
-                "of":   "of",
-                "to":   "to",
-                "more": "more"
+                "page": "Página",
+                "of":   "de",
+                "to":   "para",
+                "more": "mais"
             },
-            "noFeaturesAvailable": "No Features Available",
-            "errorSaving": "An error occured with saving operation",
-            "errorProjFetch": "Error retrieving the proj4 string definition from spatialreference.org. Synch tool cannot apply the spatial filter.",
-            "notSupportedGeometryTitle": "Geometry type not supported ",
-            "notSupportedGeometry": "Current layer geometry type is not supported by editing but you can still edit attributes",
-            "yesButton": "Yes",
-            "noButton": "No",
-            "deleteButton": "Delete",
-            "clear": "Are you sure to cancel all changes you have done?",
-            "featureClose": "Are you sure to close the feature grid?",
-            "delete": "Do you confirm to delete {count} features?",
-            "missingGeometry": "Missing geometry",
+            "noFeaturesAvailable": "Sem feições disponíveis",
+            "errorSaving": "Um erro ocorreu com a operação de salvar",
+            "errorProjFetch": "Erro ao recuperar a definição de string proj4 de spatialreference.org. A ferramenta Synch não pode aplicar o filtro espacial.",
+            "notSupportedGeometryTitle": "Tipo de geometria não suportada ",
+            "notSupportedGeometry": "O tipo de geometria da camada corrente não suporta edição mas você ainda pode editar os atributos",
+            "yesButton": "Sim",
+            "noButton": "Não",
+            "deleteButton": "Deletar",
+            "clear": "Tem certeza de cancelar todas as alterações que você fez?",
+            "featureClose": "Tem certeza de fechar a grade de recursos?",
+            "delete": "Você confirma a deleção de {count} feição(ões)?",
+            "missingGeometry": "Geometria ausente",
             "filter": {
                 "placeholders": {
-                    "default": "Search...",
-                    "string": "Type text to filter...",
-                    "number": "Type number or expression..."
+                    "default": "Pesquisar...",
+                    "string": "Insira um texto para pesquisar...",
+                    "number": "Insira um número ou expressão..."
                 },
                 "tooltips": {
-                    "editMode": "Quick search is not available in edit mode",
-                    "default": "Search...",
-                    "string": "Type text to filter...",
-                    "number": "Type a number or an expression. Examples: 10, > 2, < 10"
+                    "editMode": "A pesquisa rápida não está disponível no modo de edição",
+                    "default": "Pesquisa...",
+                    "string": "Insira um texto para pesquisar...",
+                    "number": "Insira um número ou expressão. Exemplos: 10, > 2, < 10"
                 }
             },
             "toolbar": {
-                "editMode": "Edit mode",
-                "advancedFilter": "Advanced Search",
-                "quitEditMode": "Quit edit mode",
-                "addNewFeatures": "Add New feature",
-                "editFeature": "Edit feature",
-                "drawGeom": "Draw feature",
-                "stopDrawGeom": "Cancel geometry cration",
-                "addGeom": "Add a shape to the existing geometry",
-                "deleteSelectedFeatures": "Delete selected features",
-                "saveChanges": "Save changes",
-                "saving": "Saving...",
-                "cancelChanges": "Cancel changes",
-                "deleteGeometry": "Delete geometry",
-                "downloadGridData": "Download grid data",
-                "hideShowColumns": "Hide/show columns",
-                "zoomAll": "Zoom to page extent",
-                "syncOnMap": "Sync map with fitler",
-                "createNewChart": "Create a chart for the selected layer"
+                "editMode": "Modo de edição",
+                "advancedFilter": "Pesquisa avançada",
+                "quitEditMode": "Sair do modo de edição",
+                "addNewFeatures": "Adicionar nova feição",
+                "editFeature": "Editar feição",
+                "drawGeom": "Desenhar feição",
+                "stopDrawGeom": "Cancelar criação de geometria",
+                "addGeom": "Adicione uma forma à geometria existente",
+                "deleteSelectedFeatures": "Delete as feições selecionadas",
+                "saveChanges": "Salvar anterações",
+                "saving": "Salvando...",
+                "cancelChanges": "Cancelar alterações",
+                "deleteGeometry": "Deletar geometria",
+                "downloadGridData": "Baixar dados da grade",
+                "hideShowColumns": "Esconder/mostrar colunas",
+                "zoomAll": "Zoom para a extensão da página",
+                "syncOnMap": "Sincronizar mapa com filtro"
             }
         },
         "wfsdownload": {
-            "title": "Export Data",
-            "format": "File Format",
-            "srs":  "Spatial Reference System",
-            "export": "Export",
-            "downloadonlycurrentpage": "Download only current page",
+            "title": "Exportar dados",
+            "format": "Formato do arquivo",
+            "srs":  "Sistema espacial de referência",
+            "export": "Exportar",
+            "downloadonlycurrentpage": "Baixe apenas a página atual",
             "error": {
-                "title": "Error during export",
-                "invalidOutputFormat": "The selected export format is not available"
+                "title": "Erro durante a exportação",
+                "invalidOutputFormat": "O formato de exportação selecionado não está disponível"
             }
         },
         "widgets": {
             "types": {
                 "map": {
-                    "title": "Map",
-                    "caption": "add a map"
+                    "title": "Mapa",
+                    "caption": "Adicionar um mapa"
                 },
                 "chart": {
-                    "title": "Chart",
-                    "caption": "add a chart"
+                    "title": "Gráfico",
+                    "caption": "Adicionar um gráfico"
                 },
                 "text": {
-                    "title": "Text",
-                    "caption": "add a text area"
+                    "title": "Texto",
+                    "caption": "Adicionar uma área de texto"
                 },
                 "table": {
-                    "title": "Table",
-                    "caption": "add a table"
+                    "title": "Tabela",
+                    "caption": "Adicionar uma tabela"
                 },
                 "counter": {
-                    "title": "Counter",
-                    "caption": "add a counter"
+                    "title": "Contador",
+                    "caption": "Adicionar um contador"
                 }
             },
-            "selectWidgetType": "Select the widget type",
+            "selectWidgetType": "Selecione o tipo de widget",
             "selectChartType": {
-                "title": "Select the Chart type"
+                "title": "Selecione um tipo de gráfico"
             },
             "selectMap": {
                 "TOC": {
-                    "noLayerTitle": "No Layers",
-                    "noLayerDescription": "There are no layers in the map. If you want to add a layer from the catalog click on the '+' button in the toolbar on top"
+                    "noLayerTitle": "Sem layers",
+                    "noLayerDescription": "Não existem layers no mapa. Se você desejar adicionar um layer do catálogo clique no botão '+' na barra de ferramentas no topo"
                 },
                 "emptyMap": {
-                    "title": "Empty Map",
-                    "description": "Start from an empty map"
+                    "title": "Mapa vazio",
+                    "description": "Iniciar a partir de um mapa vazio"
                 }
             },
-            "title": "Title",
-            "description": "Description",
+            "title": "Título",
+            "description": "Descrição",
             "errors": {
-                "nodata": "No data available for the selected layer/filter",
-                "nodatainviewport": "No data in the current viewport",
-                "timeoutExpired": "The service took too much time to respond. Maybe the query is too complex or the server is busy",
-                "genericError": "There was an error during data retrival"
+                "nodata": "Não há dados disponíveis para a camada / filtro selecionado",
+                "nodatainviewport": "Nenhum dado na janela de exibição atual",
+                "timeoutExpired": "O serviço levou muito tempo para responder. Talvez a consulta seja muito complexa ou o servidor esteja ocupado",
+                "genericError": "Ocorreu um erro durante a recuperação de dados"
             },
             "builder": {
                 "header": {
-                    "title": "Widget"
+                    "title": "Ferramenta"
                 },
                 "wizard": {
-                    "backToTypeSelection": "Back to type selection",
-                    "backToWidgetTypeSelection": "Back to widget type selection",
-                    "backToLayerSelection": "Back to layer selection",
-                    "backToMapSelection": "Back to map selection",
-                    "backToChartOptions": "Back to chart options",
-                    "selectALayer": "Select a layer",
-                    "selectAMap": "Select a map",
-                    "configureChartOptions": "Configure chart options",
-                    "configureWidgetOptions": "Configure widget options",
-                    "backToTableOptions": "Back to table options",
-                    "configureTableOptions": "Configure table options",
-                    "resetColumnsSizes": "Reset all changes to the column sizes",
-                    "updateWidget": "Update the widget",
-                    "addToTheMap": "Add the widget to the map",
-                    "titlePlaceholder": "Insert title...",
-                    "textPlaceholder": "Insert text...",
-                    "useThisMap": "Use this map",
-                    "configureMapOptions": "Configure map options",
-                    "preview": "Preview",
-                    "addLayer": "Add a layer to the map",
-                    "useTheSelectedLayer": "Use the selected layer",
-                    "connectToAMap": "Connect to a map",
-                    "connectToTheMap": "Connect to the map",
-                    "selectMapToConnect": "Select the map to connect",
-                    "clearConnection": "Clear connection"
+                    "backToTypeSelection": "Voltar à seleção de tipos",
+                    "backToChartOptions": "Voltar às opções do gráfico",
+                    "configureChartOptions": "Configurar as opções do gráfico",
+                    "configureWidgetOptions": "Configurar opções de ferramenta",
+                    "updateWidget": "Atualizar a ferramenta",
+                    "addToTheMap": "Adicionar ferramenta ao mapa"
                 },
                 "errors": {
-                    "noWidgetsAvailableTitle": "Can not create the widget for the selected layer",
-                    "noWidgetsAvailableDescription": "<p><strong>Please try to select another layer or widget type</strong></p><p>The server doesn't provide the needed services for the layer and the widget type selected</p><p>Possible causes are: <ul><li>The selected layer is a raster layer</li><li>WFS service is not available</li><li>The WPS process <code>gs:aggregate</code> is not available</li></ul></p>",
-                    "checkAtLeastOneAttribute": "You must select at least one column"
+                    "noWidgetsAvailableTitle": "Não há ferramentas disponíveis",
+                    "noWidgetsAvailableDescription": "<p>Você não pode criar qualquer ferramenta para a camada selecionada. Isto é provavelmente porque a camada não é adequada para as ferramentas disponíveis ou o servidor não expõe todos os serviços ou informações necessários para gerar a ferramenta. Possíveis causas são: <ul><li>A camada selecionada é uma camada de imagem</li><li>Serviço WFS não está disponível</li><li>Processo gs:aggregate não está disponível</li></ul> )<p>"
                 },
-                "setupFilter": "Configure a filter for the widget data"
+                "setupFilter": "Configure um filtro para os dados da ferramenta"
             },
             "widget": {
                 "menu": {
-                    "showChartData": "Show chart data",
-                    "edit": "Edit",
-                    "delete": "Delete",
-                    "confirmDelete": "Are you sure?",
-                    "downloadData": "Download Data",
-                    "exportImage": "Export Image"
+                    "showChartData": "Mostrar dados do gráfico",
+                    "edit": "Editar",
+                    "delete": "Deletar",
+                    "confirmDelete": "Você tem certeza?",
+                    "downloadData": "Baixar dados",
+                    "exportImage": "Exportar imagem"
                 }
             },
             "chartType": {
                 "bar": {
-                    "title": "Bar Chart",
-                    "description": "Create a bar chart to add to the map",
-                    "caption": "bar"
+                    "title": "Gráfico de barras",
+                    "description": "Cria um gráfico de barras para adicionar ao mapa",
+                    "caption": "barra"
                 },
                 "pie": {
-                    "title": "Pie Chart",
-                    "description": "Create a pie chart to add to the map",
-                    "caption": "pie"
+                    "title": "Gráfico de pizza",
+                    "description": "Cria um gráfico de pizza para adicionar ao mapa",
+                    "caption": "pizza"
                 },
                 "line": {
-                    "title": "Line Chart",
-                    "description": "Create a line chart to add to the map",
-                    "caption": "line"
+                    "title": "Gráfico de linhas",
+                    "description": "Cria um gráfico de linhas para adicionar ao mapa",
+                    "caption": "linha"
                 },
                 "gauge": {
-                    "title": "Gauge Chart",
-                    "description": "Create a gauge chart to add to the map",
-                    "caption": "gauge"
+                    "title": "Gráfico de velocímetro",
+                    "description": "Cria um gráfico de velocímetro para adicionar ao mapa",
+                    "caption": "velocímetro"
                 }
             },
-            "chartOptionsTitle": "Configure data",
-            "widgetOptionsTitle": "Configure Widget Info",
+            "chartOptionsTitle": "Dados do gráfico",
+            "widgetOptionsTitle": "Informação da ferramenta",
             "groupByAttributes": {
-                "line": "X Attribute",
-                "pie": "Group By",
-                "bar": "X Attribute",
-                "gauge": "Group By",
-                "counter": "Group By",
-                "default": "Group By"
+                "line": "Atributo X",
+                "pie": "Agrupado por",
+                "bar": "Atributo X",
+                "gauge": "Agrupado por"
             },
             "aggregationAttribute": {
-                "line": "Y Attribute",
-                "pie": "Value",
-                "bar": "Y Attribute",
-                "gauge": "Value",
-                "counter": "Value",
-                "default": "Value"
+                "line": "Atributo Y",
+                "pie": "Valor",
+                "bar": "Atributo Y",
+                "gauge": "Valor"
             },
             "aggregateFunction": {
-                "line": "Operation",
-                "pie": "Operation",
-                "bar": "Operation",
-                "gauge": "Operation",
-                "counter": "Operation",
-                "default": "Operation"
+                "line": "Operação",
+                "pie": "Operação",
+                "bar": "Operação",
+                "gauge": "Operação"
             },
             "colorRamp": {
                 "line": "Color",
-                "pie": "Color Ramp",
-                "bar": "Color",
-                "gauge": "Color",
-                "counter": "Color",
-                "default": "Color"
+                "pie": "Cores",
+                "bar": "Cor",
+                "gauge": "Cor"
             },
-            "uom": {
-                "line": "Unit of measure",
-                "pie": "Unit of measure",
-                "bar": "Unit of measure",
-                "gauge": "Unit of measure",
-                "counter": "Unit of measure",
-                "default": "Unit of measure"
-            },
-            "mapSync": "Live Filter by viewport",
+            "mapSync": "Filtro ao vivo da janela de exibição",
             "displayLegend": {
-                "line": "Display Legend",
-                "pie": "Display Legend",
-                "bar": "Display Legend",
-                "gauge": "Display labels"
+                "line": "Mostrar legenda",
+                "pie": "Mostrar legenda",
+                "bar": "Mostrar legenda",
+                "gauge": "Mostrar legenda"
             }
 
         },
         "dashboard": {
             "editor": {
-                "addACardToTheDashboard": "Add a widget to the dashboard",
-                "showConnections": "Show connections",
-                "hideConnections": "HideConnections"
+                "addACardToTheDashboard": "Adicionar um widget ao dashboard",
+                "showConnections": "Mostrar conexões",
+                "hideConnections": "Esconder conexões"
             },
             "emptyTitle": "The dashboard is empty"
         },
         "wizard": {
-            "next": "Next",
-            "prev": "Previous",
-            "finish": "Finish"
+            "next": "Próximo",
+            "prev": "Anterior",
+            "finish": "Finalizar"
         },
         "vectorstyler": {
-            "tooltip": "Create and edit vector layer style",
-            "paneltitle": "Vector Styler",
-            "layerlabel": "Layer",
-            "rulelabel": "Rules",
-            "namelabel": "Rule Name",
-            "symboltitle": "Symbol",
-            "labeltitle": "Label",
-            "conditiontitle": "Conditions",
-            "applybtn": "Apply Style",
-            "addrulebtn": "Add Rule",
-            "removerulebtn": "Remove Rule"
+            "tooltip": "Criar e editar estilos de camadas de vetores",
+            "paneltitle": "Estilizador de vetor",
+            "layerlabel": "Camada",
+            "rulelabel": "Regras",
+            "namelabel": "Nome da regra",
+            "symboltitle": "Símbolo",
+            "labeltitle": "Rótulo",
+            "conditiontitle": "Condições",
+            "applybtn": "Aplicar estilo",
+            "addrulebtn": "Adicionar regra",
+            "removerulebtn": "Remover regra"
         },
         "scaledenominator": {
-            "minlabel": "Min Scale Denominator",
-            "maxlabel": "Max Scale Denominator",
-            "maxerror": "Max value must be greater than min value",
-            "minerror": "Min value must be less than max value",
-            "none": "None"
+            "minlabel": "Denominador de escala mínimo",
+            "maxlabel": "Denominador de escala mínimo",
+            "maxerror": "O valor máximo deve ser maior que o valor mínimo",
+            "minerror": "O valor mínimo deve ser inferior ao valor máximo",
+            "none": "Nenhum"
         },
         "markNameSelector": {
-            "circle": "Circle",
-            "square": "Square",
-            "triangle": "Triangle",
-            "star": "Star",
-            "cross": "Cross",
+            "circle": "Círculo",
+            "square": "Quadrado",
+            "triangle": "Triângulo",
+            "star": "Estrela",
+            "cross": "Cruz",
             "x": "X"
         },
         "styler": {
-            "tooltip": "Create and edit layer style",
-            "paneltitle": "Styler",
-            "layerlabel": "Layer"
+            "tooltip": "Criar e editar os estilos de camadas",
+            "paneltitle": "Estilizador",
+            "layerlabel": "Camada"
         },
         "rulesmanager": {
-            "title": "Access Rules",
-            "role": "Role",
-            "user": "User",
-            "service": "Service",
-            "request": "Request",
-            "workspace": "Workspace",
-            "layer": "Layer",
-            "filters": "Filters",
-            "rules": "Rules",
-            "access": "Access",
-            "newModal": "New Rule",
-            "editModal": "Edit Rule",
-            "newButton": "Create",
-            "editButton": "Save",
-            "close": "Close",
-            "previous": "previous",
-            "next": "next",
-            "errorLoadingRoles": "Error loading roles.",
-            "errorLoadingUsers": "Error loading users.",
-            "errorLoadingWorkspaces": "Error loading workspaces.",
-            "errorLoadingLayers": "Error loading layers.",
-            "errorLoadingRules": "Error loading rules.",
-            "errorMovingRules": "Error moving rules.",
-            "errorDeletingRules": "Error deleting rules.",
-            "errorAddingRule": "Error adding rule.",
-            "errorUpdatingRule": "Error updating rule.",
-            "deleteModal": "Delete Rules",
-            "selectedRulesDelete": "Delete selected rules ?",
-            "deleteButton": "Delete",
-            "cancelButton": "Cancel"
+            "title": "Regras de acesso",
+            "role": "Regra",
+            "user": "Usuário",
+            "service": "Serviço",
+            "request": "Requisição",
+            "workspace": "Espaço de trabalho",
+            "layer": "Camada",
+            "filters": "Filtros",
+            "rules": "Regras",
+            "access": "Acesso",
+            "newModal": "Nova regra",
+            "editModal": "Editar regra",
+            "newButton": "Criar",
+            "editButton": "Salvar",
+            "close": "Fechar",
+            "previous": "anterior",
+            "next": "próximo",
+            "errorLoadingRoles": "Erro ao carregar as roles.",
+            "errorLoadingUsers": "Erro ao carregar usuários.",
+            "errorLoadingWorkspaces": "Erro ao carregar o espaço de trabalho.",
+            "errorLoadingLayers": "Erro ao carregar os layers.",
+            "errorLoadingRules": "Erro ao carregas as regras.",
+            "errorMovingRules": "Erro ao movar as regras.",
+            "errorDeletingRules": "Erro ao deletar regras.",
+            "errorAddingRule": "Erro ao adicionar regra.",
+            "errorUpdatingRule": "Erro ao atualizar regra.",
+            "deleteModal": "Deletar regras",
+            "selectedRulesDelete": "Deletar as regras selecionadas?",
+            "deleteButton": "Deletar",
+            "cancelButton": "Cancelar"
         },
         "tutorial": {
             "title": "Tutorial",
-            "back": "Back",
-            "next": "Next",
-            "close": "Close",
-            "skip": "Skip",
-            "last": "Finish",
-            "start": "Start",
-            "checkbox": "don't show this message again",
-            "error": "Error: target not found",
+            "back": "Voltar",
+            "next": "Avançar",
+            "close": "Fechar",
+            "skip": "pular",
+            "last": "Finalizar",
+            "start": "Iniciar",
+            "checkbox": "não mostre esta mensagem novamente",
+            "error": "Erro: alvo não encontrado",
             "intro": {
-                "title": "Welcome on MapStore2",
-                "text": "framework to build web mapping applications using standard mapping libraries, such as OpenLayers 3 and Leaflet."
+                "title": "Bem vindo ao MapStore2",
+                "text": "Um framework para criar aplicativos de mapeamento web usando bibliotecas de mapeamento padrão, como OpenLayers 3 e Leaflet."
             },
             "drawerMenu": {
-                "title": "Main menu",
-                "text": "You can find information and tools to manage layer"
+                "title": "Menu principal",
+                "text": "Você pode encontrar informação e ferramentas para gerenciar camadas"
             },
             "searchBar": {
-                "title": "Search Bar",
-                "text": "Write the address of a place to find. e.g. '1st avenue, new york'. You can even insert coordinates in this format: 43.87,10.20"
+                "title": "Barra de pesquisa",
+                "text": "Escreva um endereço de um local para encontrar. e.x. '1st avenue, new york'. Pode pode também inserir coordenadas neste formato: 43.87,10.20"
             },
             "home": {
                 "title": "Home",
-                "text": "Click to go to homepage"
+                "text": "Clique para ir a homepage"
             },
             "searchButton": {
-                "title": "Search",
-                "text": "Click to open the search bar, then write the address of a place to find. e.g. '1st avenue, new york'. You can even insert coordinates in this format: 43.87,10.20"
+                "title": "Pesquisa",
+                "text": "Clique para abrir a barra de pesquisa e, em seguida, escreva o endereço de um local para encontrar. por exemplo. '1st avenue, new york'. Você pode até inserir coordenadas neste formato: 43.87,10.20"
             },
             "burgerMenu": {
-                "title": "Option Menu",
-                "text": "You can find options, settings and help"
+                "title": "Menu de opções",
+                "text": "Você pode encontrar opções, configurações e ajuda"
             },
             "zoomInButton": {
-                "title": "Zoom In",
-                "text": "Click to enlarge the map"
+                "title": "Aumentar Zoom",
+                "text": "Clique para aumentar o mapa"
             },
             "zoomOutButton": {
-                "title": "Zoom Out",
-                "text": "Click to reduce the map"
+                "title": "Diminuir Zoom",
+                "text": "Clique para reduzir o mapa"
             },
             "fullscreen": {
-                "title": "Full Screen",
-                "text": "Click to go full screen"
+                "title": "Tela cheia",
+                "text": "Clique para ativar o modo tela cheia"
             },
             "identifyButton": {
-                "title": "Info",
-                "text": "Press the button to activate the tool, then click on the map to retrieve information from layers"
+                "title": "Informação",
+                "text": "Pressione o botão para ativar a ferramenta, depois clique no mapa para recuperar informações das camadas"
             },
             "mapType": {
-                "title": "Library",
-                "text": "You can choose Leaflet or OpenLayers to render your maps"
+                "title": "Biblioteca",
+                "text": "Você pode escolher a biblioteca do Leaflet ou OpenLayers para renderizar seus mapas"
             },
             "mapsGrid": {
-                "title": "Maps",
-                "text": "Here some examples of MapStore2. Click on an image to try the demo."
+                "title": "Mapas",
+                "text": "Aqui existem alguns exemplos do MapStore2. Clique em uma imagem para testar o demonstrativo."
             },
             "examples": {
-                "title": "Custom Application",
-                "text": "You can use components and plugins of MapStore2 to build custom applications"
+                "title": "Aplicação customizada",
+                "text": "Você pode usar componentes e plugins do MapStore2 para criar aplicativos personalizados"
             },
             "introCesium": {
-                "title": "3D map instructions",
-                "text": "Click on next button to start the tutorial"
+                "title": "Instruções do mapa 3D",
+                "text": "Clique no próximo botão para iniciar o tutorial"
             },
             "cesium": {
-                "title": "Interactions with the Map",
-                "pan": "Pan view",
-                "zoom": "Zoom view",
-                "tilt": "Tilt view",
-                "rotate": "Rotate view",
-                "oneDrag": "One finger drag",
-                "twoPinch": "Two finger pinch",
-                "twoDragSame": "Two finger drag, same direction",
-                "twoDragOpposite": "Two finger drag, opposite direction",
-                "leftClick": "Left click + drag",
-                "rightClick": "Right click + drag, or Mouse wheel scroll",
-                "middleClick": "Middle click + drag, or CTRL + Left/Right click + drag"
+                "title": "Interações com o Mapa",
+                "pan": "Vista panorâmica",
+                "zoom": "Vista com Zoom",
+                "tilt": "Vista inclinada",
+                "rotate": "Girar vista",
+                "oneDrag": "Arrastar com um dedo",
+                "twoPinch": "Comprimir com dois dedos",
+                "twoDragSame": "Arrastar com dois dedos, na mesma direção",
+                "twoDragOpposite": "Arrastar com dois dedos, direção oposta",
+                "leftClick": "Clique esquerdo + arraste",
+                "rightClick": "Clique com o botão direito do mouse + arraste ou rolo da roda do mouse",
+                "middleClick": "Clique no meio + arraste, ou CTRL + clique esquerdo / direito + arraste"
 
             },
             "cesiumCompass": {
-                "title": "Compass",
-                "text": "You can use the compass to orbit around the globe. Drag to rotate the map"
+                "title": "Bússola",
+                "text": "Você pode usar a bússola para orbitar ao redor do globo. Arraste para girar o mapa"
             },
             "cesiumNavigation": {
-                "title": "Navigation",
-                "text": "Here you can find the zoom in and zoom out buttons"
+                "title": "Navegação",
+                "text": "Aqui você pode encontrar os botões de aumentar zoom e diminuir zoom"
             }
         }
     }
