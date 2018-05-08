@@ -6,7 +6,7 @@ npm run compile
 npm run cleandoc
 #npm run lint
 #npm test
-npm run doc
+#npm run doc
 if [ $# -eq 0 ]
   then
     mvn clean install
